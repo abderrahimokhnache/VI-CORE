@@ -19,7 +19,6 @@ def Listen():
 
 def Talk(master_input):
     
-    master_input = " "
     try :
         master_input = str(master_input)
         tts = gTTS(text=master_input, lang='en')

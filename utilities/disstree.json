@@ -42,6 +42,18 @@
          "input": "search for imagine dragons song",
          "output": "there you go",
          "@time": "Friday-January-14-2022,07:28:23"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 07:35 AM ",
+         "@time": "Friday-January-14-2022,07:35:12"
+      },
+      {
+         "tag": "greeting",
+         "input": "hi there",
+         "output": "Hi there !uname, how can I help?",
+         "@time": "Friday-January-14-2022,07:35:40"
       }
    ]
 }
