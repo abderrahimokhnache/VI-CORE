@@ -9,7 +9,7 @@ def Listen():
     try:
         r = sr.Recognizer() 
         with sr.Microphone() as source:
-            r.adjust_for_ambient_noise(source, duration =0.10)
+            r.adjust_for_ambient_noise(source, duration =10)
             audio = r.listen(source,10*100,10*100)
             master_input = r.recognize_google(audio)
     except Exception as e:
@@ -18,7 +18,7 @@ def Listen():
 
 
 def Talk(master_input):
-    
+
     try :
         master_input = str(master_input)
         tts = gTTS(text=master_input, lang='en')

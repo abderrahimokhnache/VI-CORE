@@ -54,6 +54,36 @@
          "input": "hi there",
          "output": "Hi there !uname, how can I help?",
          "@time": "Friday-January-14-2022,07:35:40"
+      },
+      {
+         "tag": "search",
+         "input": "search for imagine dragons",
+         "output": "there you go",
+         "@time": "Friday-January-14-2022,07:41:03"
+      },
+      {
+         "tag": "search",
+         "input": "search for imagine dragons",
+         "output": "here's what i found",
+         "@time": "Friday-January-14-2022,07:41:03"
+      },
+      {
+         "tag": "search",
+         "input": "search for imagine dragons on youtube",
+         "output": "here's what i found",
+         "@time": "Friday-January-14-2022,07:43:51"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 08:05 AM ",
+         "@time": "Friday-January-14-2022,08:04:49"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 08:08 AM ",
+         "@time": "Friday-January-14-2022,08:07:51"
       }
    ]
 }
