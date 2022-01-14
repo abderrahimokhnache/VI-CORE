@@ -2,11 +2,11 @@ import json , random , Core.Sandbox , os
 from Qalm import json_pen
 from utilities.logger import logerr
 
-class think():
+class Think():
 	
 	def __init__(self,input_):
 		try :
-			tag , response = think.tokenize(input_)
+			tag , response = Think.tokenize(input_)
 		except Exception as e :
 			logerr(e)
 			tag , response = "unknown" , ["Sorry i didn't get that !"] 
@@ -32,7 +32,7 @@ class think():
 				#importing the model
 				__import__('Core.Sandbox.%s'%model)
 				#gettting the discription dict
-				tag =(think.exec_and_return(('Core.Sandbox.%s.discription()'%model)))
+				tag =(Think.exec_and_return(('Core.Sandbox.%s.discription()'%model)))
 				#looking for hte user input inside the dict patterns 
 				if check(master_input,get_patter(tag)) :
 						#if there's a match the userinput will be giving as an arg for the execute func

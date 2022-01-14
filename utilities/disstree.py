@@ -3,8 +3,9 @@ from Qalm import json_pen
 ctime = datetime.today()
 strtof = "{:%A-%B-%d-%Y,%H:%M:%S}"
 
-def save(input_ , output):
+def save(tag,input_ , output):
     diss = {
+        "tag" :tag,
         "input" : input_,
         'output' :output ,
         "@time": strtof.format(ctime)

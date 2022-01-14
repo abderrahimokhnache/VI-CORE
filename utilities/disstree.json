@@ -24,6 +24,24 @@
          "input": "what time is it",
          "output": "the time is 06:18 AM ",
          "@time": "Friday-January-14-2022,06:18:49"
+      },
+      {
+         "tag": "search",
+         "input": "search imagine dragons on you",
+         "output": "here's what i found",
+         "@time": "Friday-January-14-2022,07:28:23"
+      },
+      {
+         "tag": "search",
+         "input": "search for imagine dragons",
+         "output": "here's what i found",
+         "@time": "Friday-January-14-2022,07:28:23"
+      },
+      {
+         "tag": "search",
+         "input": "search for imagine dragons song",
+         "output": "there you go",
+         "@time": "Friday-January-14-2022,07:28:23"
       }
    ]
 }
