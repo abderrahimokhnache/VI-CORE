@@ -1,6 +1,7 @@
 import json , random , Core.Sandbox , os
 from Qalm import json_pen
 from utilities.logger import logerr
+
 class think():
 	
 	def __init__(self,input_):
