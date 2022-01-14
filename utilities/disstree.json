@@ -1,0 +1,29 @@
+{
+   "tree": [
+      {
+         "input": "what time is it",
+         "output": "the time is 20:08 PM ",
+         "@time": "Thursday-January-13-2022,20:08:13"
+      },
+      {
+         "input": "imagine dragons",
+         "output": "Sorry i didn't get that !",
+         "@time": "Thursday-January-13-2022,20:08:13"
+      },
+      {
+         "input": "search imagine dragons",
+         "output": "here's what i found",
+         "@time": "Thursday-January-13-2022,20:08:13"
+      },
+      {
+         "input": "what time is it",
+         "output": "the time is 06:15 AM ",
+         "@time": "Friday-January-14-2022,06:14:54"
+      },
+      {
+         "input": "what time is it",
+         "output": "the time is 06:18 AM ",
+         "@time": "Friday-January-14-2022,06:18:49"
+      }
+   ]
+}

@@ -66,3 +66,114 @@ DEBUG 2022-01-13 18:44:20,930 - url-0: https://translate.google.com/_/TranslateW
 DEBUG 2022-01-13 18:44:20,930 - status-0: 200
 DEBUG 2022-01-13 18:44:20,931 - part-0 written to <_io.BufferedWriter name='temp17052930.mp3'>
 DEBUG 2022-01-13 18:44:20,931 - Saved to temp17052930.mp3
+DEBUG 2022-01-13 20:08:40,129 - CoInitializeEx(None, 2)
+INFO 2022-01-13 20:08:40,228 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-13 20:08:40,229 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-13 20:08:40,908 - pre_processor_funcs: [<function tone_marks at 0x0000017636F30AE8>, <function end_of_line at 0x0000017636F3D2F0>, <function abbreviations at 0x0000017636F3D378>, <function word_sub at 0x0000017636F3D400>]
+DEBUG 2022-01-13 20:08:40,908 - lang_check: True
+DEBUG 2022-01-13 20:08:40,908 - slow: False
+DEBUG 2022-01-13 20:08:40,909 - lang: en
+DEBUG 2022-01-13 20:08:40,909 - tld: com
+DEBUG 2022-01-13 20:08:40,909 - text: the time is 20:08 PM 
+DEBUG 2022-01-13 20:08:40,909 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-13 20:08:40,909 - pre-processing: <function tone_marks at 0x0000017636F30AE8>
+DEBUG 2022-01-13 20:08:40,911 - pre-processing: <function end_of_line at 0x0000017636F3D2F0>
+DEBUG 2022-01-13 20:08:40,911 - pre-processing: <function abbreviations at 0x0000017636F3D378>
+DEBUG 2022-01-13 20:08:40,912 - pre-processing: <function word_sub at 0x0000017636F3D400>
+DEBUG 2022-01-13 20:08:40,913 - text_parts: ['the time is 20:08 PM']
+DEBUG 2022-01-13 20:08:40,913 - text_parts: 1
+DEBUG 2022-01-13 20:08:40,914 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22the%20time%20is%2020%3A08%20PM%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-13 20:08:40,916 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-13 20:08:41,877 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-13 20:08:41,892 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+DEBUG 2022-01-13 20:08:41,892 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-13 20:08:41,892 - status-0: 200
+DEBUG 2022-01-13 20:08:41,894 - part-0 written to <_io.BufferedWriter name='temp1491202.mp3'>
+DEBUG 2022-01-13 20:08:41,894 - Saved to temp1491202.mp3
+ERROR 2022-01-13 20:09:03,233 - 'NoneType' object is not iterable
+DEBUG 2022-01-13 20:09:03,282 - pre_processor_funcs: [<function tone_marks at 0x0000017636F30AE8>, <function end_of_line at 0x0000017636F3D2F0>, <function abbreviations at 0x0000017636F3D378>, <function word_sub at 0x0000017636F3D400>]
+DEBUG 2022-01-13 20:09:03,282 - lang_check: True
+DEBUG 2022-01-13 20:09:03,282 - slow: False
+DEBUG 2022-01-13 20:09:03,283 - lang: en
+DEBUG 2022-01-13 20:09:03,283 - tld: com
+DEBUG 2022-01-13 20:09:03,283 - text: Sorry i didn't get that !
+DEBUG 2022-01-13 20:09:03,283 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-13 20:09:03,284 - pre-processing: <function tone_marks at 0x0000017636F30AE8>
+DEBUG 2022-01-13 20:09:03,284 - pre-processing: <function end_of_line at 0x0000017636F3D2F0>
+DEBUG 2022-01-13 20:09:03,284 - pre-processing: <function abbreviations at 0x0000017636F3D378>
+DEBUG 2022-01-13 20:09:03,284 - pre-processing: <function word_sub at 0x0000017636F3D400>
+DEBUG 2022-01-13 20:09:03,284 - text_parts: ["Sorry i didn't get that !"]
+DEBUG 2022-01-13 20:09:03,284 - text_parts: 1
+DEBUG 2022-01-13 20:09:03,284 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sorry%20i%20didn%27t%20get%20that%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-13 20:09:03,286 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-13 20:09:03,695 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-13 20:09:03,709 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '169'}
+DEBUG 2022-01-13 20:09:03,709 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-13 20:09:03,709 - status-0: 200
+DEBUG 2022-01-13 20:09:03,710 - part-0 written to <_io.BufferedWriter name='temp18514163.mp3'>
+DEBUG 2022-01-13 20:09:03,710 - Saved to temp18514163.mp3
+DEBUG 2022-01-13 20:09:13,366 - pre_processor_funcs: [<function tone_marks at 0x0000017636F30AE8>, <function end_of_line at 0x0000017636F3D2F0>, <function abbreviations at 0x0000017636F3D378>, <function word_sub at 0x0000017636F3D400>]
+DEBUG 2022-01-13 20:09:13,366 - lang_check: True
+DEBUG 2022-01-13 20:09:13,366 - slow: False
+DEBUG 2022-01-13 20:09:13,366 - lang: en
+DEBUG 2022-01-13 20:09:13,367 - tld: com
+DEBUG 2022-01-13 20:09:13,367 - text: here's what i found
+DEBUG 2022-01-13 20:09:13,367 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-13 20:09:13,368 - pre-processing: <function tone_marks at 0x0000017636F30AE8>
+DEBUG 2022-01-13 20:09:13,368 - pre-processing: <function end_of_line at 0x0000017636F3D2F0>
+DEBUG 2022-01-13 20:09:13,368 - pre-processing: <function abbreviations at 0x0000017636F3D378>
+DEBUG 2022-01-13 20:09:13,369 - pre-processing: <function word_sub at 0x0000017636F3D400>
+DEBUG 2022-01-13 20:09:13,369 - text_parts: ["here's what i found"]
+DEBUG 2022-01-13 20:09:13,369 - text_parts: 1
+DEBUG 2022-01-13 20:09:13,369 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22here%27s%20what%20i%20found%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-13 20:09:13,370 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-13 20:09:13,727 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-13 20:09:13,738 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '157'}
+DEBUG 2022-01-13 20:09:13,738 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-13 20:09:13,739 - status-0: 200
+DEBUG 2022-01-13 20:09:13,739 - part-0 written to <_io.BufferedWriter name='temp13896789.mp3'>
+DEBUG 2022-01-13 20:09:13,739 - Saved to temp13896789.mp3
+DEBUG 2022-01-14 06:15:02,524 - CoInitializeEx(None, 2)
+INFO 2022-01-14 06:15:02,582 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 06:15:02,582 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 06:15:03,491 - pre_processor_funcs: [<function tone_marks at 0x000001F07AF8E950>, <function end_of_line at 0x000001F07AF99158>, <function abbreviations at 0x000001F07AF991E0>, <function word_sub at 0x000001F07AF99268>]
+DEBUG 2022-01-14 06:15:03,491 - lang_check: True
+DEBUG 2022-01-14 06:15:03,492 - slow: False
+DEBUG 2022-01-14 06:15:03,492 - lang: en
+DEBUG 2022-01-14 06:15:03,492 - tld: com
+DEBUG 2022-01-14 06:15:03,492 - text: the time is 06:15 AM 
+DEBUG 2022-01-14 06:15:03,492 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-14 06:15:03,493 - pre-processing: <function tone_marks at 0x000001F07AF8E950>
+DEBUG 2022-01-14 06:15:03,495 - pre-processing: <function end_of_line at 0x000001F07AF99158>
+DEBUG 2022-01-14 06:15:03,495 - pre-processing: <function abbreviations at 0x000001F07AF991E0>
+DEBUG 2022-01-14 06:15:03,497 - pre-processing: <function word_sub at 0x000001F07AF99268>
+DEBUG 2022-01-14 06:15:03,497 - text_parts: ['the time is 06:15 AM']
+DEBUG 2022-01-14 06:15:03,498 - text_parts: 1
+DEBUG 2022-01-14 06:15:03,498 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22the%20time%20is%2006%3A15%20AM%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-14 06:15:03,500 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-14 06:15:05,488 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-14 06:15:05,488 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+DEBUG 2022-01-14 06:15:05,488 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-14 06:15:05,488 - status-0: 200
+DEBUG 2022-01-14 06:15:05,504 - part-0 written to <_io.BufferedWriter name='temp14103115.mp3'>
+DEBUG 2022-01-14 06:15:05,504 - Saved to temp14103115.mp3
+ERROR 2022-01-14 06:15:28,244 - recognition connection failed: [Errno 11001] getaddrinfo failed
+DEBUG 2022-01-14 06:15:28,249 - Calling CoUnititialize()
+DEBUG 2022-01-14 06:15:28,250 - CoUnititialize() done.
+DEBUG 2022-01-14 06:18:54,695 - CoInitializeEx(None, 2)
+INFO 2022-01-14 06:18:54,742 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 06:18:54,742 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 06:19:01,682 - pre_processor_funcs: [<function tone_marks at 0x00000123B3A00B70>, <function end_of_line at 0x00000123B3A0D378>, <function abbreviations at 0x00000123B3A0D400>, <function word_sub at 0x00000123B3A0D488>]
+DEBUG 2022-01-14 06:19:01,683 - lang_check: True
+DEBUG 2022-01-14 06:19:01,683 - slow: False
+DEBUG 2022-01-14 06:19:01,683 - lang: en
+DEBUG 2022-01-14 06:19:01,683 - tld: com
+DEBUG 2022-01-14 06:19:01,683 - text:  
+DEBUG 2022-01-14 06:19:01,684 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-14 06:19:01,685 - pre-processing: <function tone_marks at 0x00000123B3A00B70>
+DEBUG 2022-01-14 06:19:01,687 - pre-processing: <function end_of_line at 0x00000123B3A0D378>
+DEBUG 2022-01-14 06:19:01,687 - pre-processing: <function abbreviations at 0x00000123B3A0D400>
+DEBUG 2022-01-14 06:19:01,690 - pre-processing: <function word_sub at 0x00000123B3A0D488>
+DEBUG 2022-01-14 06:19:01,690 - text_parts: []
+DEBUG 2022-01-14 06:19:01,691 - text_parts: 0
+ERROR 2022-01-14 06:19:01,691 - No text to send to TTS API

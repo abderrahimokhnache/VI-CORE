@@ -1,9 +1,11 @@
 import speech_recognition as sr , playsound ,random ,os
 from gtts import gTTS
 from utilities.logger import logerr
+from urllib import request
 
 def Listen():
-    master_input = "there's an issue"
+    
+    master_input = " "
     try:
         r = sr.Recognizer() 
         with sr.Microphone() as source:
@@ -16,6 +18,8 @@ def Listen():
 
 
 def Talk(master_input):
+    
+    master_input = " "
     try :
         master_input = str(master_input)
         tts = gTTS(text=master_input, lang='en')
