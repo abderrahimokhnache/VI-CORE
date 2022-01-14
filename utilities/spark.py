@@ -1,16 +1,17 @@
 import speech_recognition as sr , playsound ,random ,os
 from gtts import gTTS
-from Qalm import pen_head
+from utilities.logger import logerr
 
 def Listen():
+    master_input = "there's an issue"
     try:
         r = sr.Recognizer() 
         with sr.Microphone() as source:
             r.adjust_for_ambient_noise(source, duration =0.10)
             audio = r.listen(source,10*100,10*100)
-            master_input = r.recognize_google(audio)  # convert audio to text
+            master_input = r.recognize_google(audio)
     except Exception as e:
-        pen_head("issues.log" ,"w" ,e.message)
+        logerr(e)
     return master_input.lower()
 
 
@@ -24,4 +25,4 @@ def Talk(master_input):
         playsound.playsound(audio_file) 
         os.remove(audio_file)
     except Exception as e:
-        pen_head("issues.log" ,"w" ,e.message)
+        logerr(e)

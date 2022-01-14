@@ -6,5 +6,3 @@ while True:
 	output =Listen()
 	output_process = think(output)
 	Talk(output_process.output)
-
-  
