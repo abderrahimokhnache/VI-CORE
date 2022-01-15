@@ -620,3 +620,24 @@ DEBUG 2022-01-14 13:28:00,424 - url-0: https://translate.google.com/_/TranslateW
 DEBUG 2022-01-14 13:28:00,424 - status-0: 200
 DEBUG 2022-01-14 13:28:00,425 - part-0 written to <_io.BufferedWriter name='temp15441371.mp3'>
 DEBUG 2022-01-14 13:28:00,425 - Saved to temp15441371.mp3
+DEBUG 2022-01-14 13:31:23,602 - pre_processor_funcs: [<function tone_marks at 0x00000129F75D0950>, <function end_of_line at 0x00000129F75DA158>, <function abbreviations at 0x00000129F75DA1E0>, <function word_sub at 0x00000129F75DA268>]
+DEBUG 2022-01-14 13:31:23,603 - lang_check: True
+DEBUG 2022-01-14 13:31:23,606 - slow: False
+DEBUG 2022-01-14 13:31:23,607 - lang: en
+DEBUG 2022-01-14 13:31:23,611 - tld: com
+DEBUG 2022-01-14 13:31:23,612 - text: Ready for you sir
+DEBUG 2022-01-14 13:31:23,612 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-14 13:31:23,615 - pre-processing: <function tone_marks at 0x00000129F75D0950>
+DEBUG 2022-01-14 13:31:23,616 - pre-processing: <function end_of_line at 0x00000129F75DA158>
+DEBUG 2022-01-14 13:31:23,616 - pre-processing: <function abbreviations at 0x00000129F75DA1E0>
+DEBUG 2022-01-14 13:31:23,618 - pre-processing: <function word_sub at 0x00000129F75DA268>
+DEBUG 2022-01-14 13:31:23,618 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-14 13:31:23,618 - text_parts: 1
+DEBUG 2022-01-14 13:31:23,619 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-14 13:31:23,622 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-14 13:31:24,536 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-14 13:31:24,549 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-14 13:31:24,549 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-14 13:31:24,549 - status-0: 200
+DEBUG 2022-01-14 13:31:24,550 - part-0 written to <_io.BufferedWriter name='temp8888292.mp3'>
+DEBUG 2022-01-14 13:31:24,550 - Saved to temp8888292.mp3
