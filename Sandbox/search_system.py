@@ -1,6 +1,7 @@
 from tkinter.tix import Tree
 import webbrowser , re ,wikipedia , threading
 import Qalm
+
 def discription():
     discription_dict = {
             "tag": "search",
@@ -13,12 +14,12 @@ def discription():
     return discription_dict  
 
 def execute(search_term =''):
+
     if "google it" in search_term :
         tree =Qalm.json_pen("utilities/disstree.json" , "r")["tree"][-1]['input']
         url = "https://google.com/search?q=" + tree
         webbrowser.get().open(url)
-        return "google search" ,f"Here is what I found for {tree} on google"        
-
+        return "google search" ,f"Here is what I found for {tree} on google"   
 
     if len(search_term) == len("search") :
         return None

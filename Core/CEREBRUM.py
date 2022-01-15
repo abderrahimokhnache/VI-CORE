@@ -5,8 +5,8 @@ from utilities.logger import logerr
 class Think():
 	check = lambda master_input,patterns :any([pattern in master_input for pattern in patterns]) 
 	get_patter = lambda tag :[each_string.lower() for each_string in tag['patterns']]	
-	def __init__(self,input_):
 
+	def __init__(self,input_):
 		tag , response = Think.features(input_)
 		self.output = random.choice(response)
 		self.tag = tag
