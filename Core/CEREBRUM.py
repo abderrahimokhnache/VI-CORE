@@ -5,11 +5,7 @@ from utilities.logger import logerr
 class Think():
 	
 	def __init__(self,input_):
-		try :
-			tag , response = Think.tokenize(input_)
-		except Exception as e :
-			logerr(e)
-			tag , response = "unknown" , ["Sorry i didn't get that !"] 
+		tag , response = Think.tokenize(input_)
 		self.output = random.choice(response)
 		self.tag = tag
 
@@ -38,6 +34,7 @@ class Think():
 						#if there's a match the userinput will be giving as an arg for the execute func
 						eval((f'Sandbox.{model}.execute(master_input)'))
 						return(tag['tag'] , tag['responses'])
+		return (master_input , ["Not in the system"])
 	@staticmethod
 	def exec_and_return(expression):
 	    exec(f"""locals()['temp'] = {expression}""")
