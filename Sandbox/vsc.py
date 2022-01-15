@@ -11,6 +11,7 @@ def discription():
             "tag": "system control",
             "patterns": [ "system control" ,"system control over voice" , "voice command","scov"],
             "responses": ["just opened" , 'starting ']
+            ,"exe-resp":False
         }
     return discription_dict  
 

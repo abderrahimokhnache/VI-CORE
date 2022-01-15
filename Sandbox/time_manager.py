@@ -9,6 +9,7 @@ def discription():
             "tag": "time",
             "patterns": [ "what time is it" , "time" , "what's the time" ],
             "responses": [ f"it is {time} ", f"the time is {time} " ]
+			,"exe-resp":False
         }
 	return discription_dict
 

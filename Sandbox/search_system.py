@@ -1,3 +1,4 @@
+from tkinter.tix import Tree
 import webbrowser , re ,wikipedia , threading
 import Qalm
 def discription():
@@ -6,6 +7,7 @@ def discription():
             "patterns": [ "search for" ,"google it",
             "look for" , "find","search" ],
             "responses": ["here's what i found" , 'there you go']
+            ,"exe-resp":True
         }
 
     return discription_dict  

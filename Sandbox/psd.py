@@ -1,3 +1,4 @@
+from tkinter.tix import Tree
 from photoshop import Session
 import photoshop.api as psi
 import os
@@ -8,7 +9,9 @@ def discription():
 	discription_dict = {
             "tag": "playsound",
             "patterns": ["photoshop","edit image","editing"],
-            "responses": ["Done " , "Got it"]
+            "responses": ["Done " , "Got it"],
+			"exe-resp":False
+
         }
 	return discription_dict 
 

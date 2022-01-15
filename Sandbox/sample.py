@@ -5,6 +5,7 @@ def discription():
             "tag": "exact location",
             "patterns": [ "what is my exact location" ,"exact location" ],
             "responses": ["You must be somewhere near here, as per Google maps" , 'You should be here']
+            ,"exe-resp":False
         }
     return discription_dict  
 

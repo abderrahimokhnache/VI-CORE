@@ -19,7 +19,9 @@ class Think():
 				__import__('Sandbox.%s'%model)
 				tag =(Think.exec_and_return(('Sandbox.%s.discription()'%model)))
 				if Think.check(master_input,Think.get_patter(tag)) :
-						eval((f'Sandbox.{model}.execute(master_input)'))
+						teg_exe = Think.exec_and_return((f'Sandbox.{model}.execute("{master_input}")'))
+						if tag["exe-resp"]:
+							return teg_exe
 						return(tag['tag'] , tag['responses'])
 		return (master_input , ["Not in the system"])
 		
