@@ -708,3 +708,83 @@ INFO 2022-01-14 16:10:59,248 - Imported existing <module 'comtypes.gen' from 'C:
 INFO 2022-01-14 16:10:59,248 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
 DEBUG 2022-01-14 16:10:59,409 - Calling CoUnititialize()
 DEBUG 2022-01-14 16:10:59,410 - CoUnititialize() done.
+DEBUG 2022-01-14 22:08:15,622 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:08:15,681 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:08:15,681 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:08:15,826 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:08:15,827 - CoUnititialize() done.
+DEBUG 2022-01-14 22:08:43,989 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:08:44,028 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:08:44,029 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:08:44,132 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:08:44,133 - CoUnititialize() done.
+DEBUG 2022-01-14 22:11:58,359 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:11:58,397 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:11:58,397 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:11:58,563 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:11:58,563 - CoUnititialize() done.
+DEBUG 2022-01-14 22:12:47,147 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:12:47,200 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:12:47,201 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:12:47,362 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:12:47,363 - CoUnititialize() done.
+DEBUG 2022-01-14 22:13:06,132 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:13:06,170 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:13:06,171 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:13:06,301 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:13:06,302 - CoUnititialize() done.
+DEBUG 2022-01-14 22:16:35,032 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:16:35,069 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:16:35,070 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:16:35,202 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:16:35,203 - CoUnititialize() done.
+DEBUG 2022-01-14 22:18:06,102 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:18:06,141 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:18:06,142 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:18:06,271 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:18:06,273 - CoUnititialize() done.
+DEBUG 2022-01-14 22:18:47,505 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:18:47,544 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:18:47,545 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:18:47,678 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:18:47,679 - CoUnititialize() done.
+DEBUG 2022-01-14 22:20:04,284 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:20:04,324 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:20:04,325 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:20:04,454 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:20:04,454 - CoUnititialize() done.
+DEBUG 2022-01-14 22:22:28,555 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:22:28,596 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:22:28,597 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:22:28,754 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:22:28,762 - CoUnititialize() done.
+DEBUG 2022-01-14 22:24:57,255 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:24:57,299 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:24:57,300 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:24:57,441 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:24:57,442 - CoUnititialize() done.
+DEBUG 2022-01-14 22:25:15,468 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:25:15,512 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:25:15,513 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:25:15,652 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:25:15,652 - CoUnititialize() done.
+DEBUG 2022-01-14 22:28:30,648 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:28:30,690 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:28:30,691 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:28:30,848 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:28:30,849 - CoUnititialize() done.
+DEBUG 2022-01-14 22:29:00,215 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:29:00,253 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:29:00,254 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:29:00,385 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:29:00,386 - CoUnititialize() done.
+DEBUG 2022-01-14 22:29:20,125 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:29:20,163 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:29:20,165 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:29:20,299 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:29:20,300 - CoUnititialize() done.
+DEBUG 2022-01-14 22:29:35,097 - CoInitializeEx(None, 2)
+INFO 2022-01-14 22:29:35,138 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 22:29:35,139 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 22:29:35,288 - Calling CoUnititialize()
+DEBUG 2022-01-14 22:29:35,288 - CoUnititialize() done.

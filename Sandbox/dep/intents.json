@@ -2,16 +2,16 @@
     "intents": [
         { 
             "tag": "greeting",
-            "patterns": [ "Hi", "How are you", "Is anyone there?","yoo", "Hello", "Good day", "hello","haroo","yaw","wassup", "holla" ],
-            "responses": [ "Hello","Hi there", "Hi there, how can I help?" ]
+            "patterns": [ "Hi", "How are you","yoo", "Hello" ],
+            "responses": [ "Hi there, how can I help?" ]
         },{
             "tag": "thanks",
-            "patterns": [ "Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great" ],
+            "patterns": [ "Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "great" ],
             "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
         },{
             "tag": "ready",
             "patterns": ["vi are you up !","are ready" , "are you up"],
-            "responses": ["for you sir allways" ,"yes sir am up"]
+            "responses": ["for you sir allways"]
         }
 
                 

@@ -8,7 +8,11 @@ class TestFeatures(unittest.TestCase):
         self.assertEqual(exe('search') , None)
 
     def test_Cerebrum(self):
-        exe = CEREBRUM.Think('what time is it')
-        self.assertTrue(exe)       
+        exe = lambda x : CEREBRUM.Think(x)
+        self.assertTrue(exe('what time is it'))
+        self.assertEqual(exe("marvel").tag,"not categorized" )
+        self.assertFalse(exe("Hi").tag != "not categorized" )
+        self.assertEqual(exe("vi are you up !").output,"for you sir allways")
+
 
     

@@ -8,6 +8,11 @@ class Think():
 
 	def __init__(self,input_):
 		tag , response = Think.features(input_)
+		if tag == None :
+			tag,response = Think.noaction(input_)
+		if tag == None:
+			tag, response = ("not categorized" , ["Not in the system"])
+		
 		self.output = random.choice(response)
 		self.tag = tag
 
@@ -23,7 +28,8 @@ class Think():
 						if tag["exe-resp"]:
 							return teg_exe
 						return(tag['tag'] , tag['responses'])
-		return (master_input , ["Not in the system"])
+		
+		return (None , ["Not in features"])
 		
 	@staticmethod
 	def noaction(master_input):
@@ -31,6 +37,7 @@ class Think():
 		for tag in load['intents'] :
 			if Think.check(master_input,Think.get_patter(tag)) :
 		 		return(tag['tag'] , tag['responses'])
+		return (None , ["Not in intents"])
 
 	@staticmethod
 	def exec_and_return(expression):
