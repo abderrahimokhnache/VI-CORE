@@ -126,6 +126,12 @@
          "input": "google it",
          "output": "here's what i found",
          "@time": "Friday-January-14-2022,13:18:34"
+      },
+      {
+         "tag": "greeting",
+         "input": "hi there",
+         "output": "Good to see you again !uname",
+         "@time": "Friday-January-14-2022,13:27:33"
       }
    ]
 }
