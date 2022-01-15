@@ -1,20 +1,19 @@
 {
     "intents": [
-     {
-            "tag": "greeting1",
-            "patterns": [ "good morning", "How are you", "Is anyone there?","yoo", "Hello", "Good day", "hello","haroo","yaw","wassup", "holla" ],
-            "responses": [ "Hello !uname", "Good to see you again !uname", "Hi there !uname, how can I help?" ],
-            "context_set": ""
-        },{
+        { 
             "tag": "greeting",
             "patterns": [ "Hi", "How are you", "Is anyone there?","yoo", "Hello", "Good day", "hello","haroo","yaw","wassup", "holla" ],
-            "responses": [ "Hello !uname", "Good to see you again !uname", "Hi there !uname, how can I help?" ],
-            "context_set": ""
+            "responses": [ "Hello","Hi there", "Hi there, how can I help?" ]
         },{
             "tag": "thanks",
             "patterns": [ "Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great" ],
-            "responses": [ "Happy to help! !uname", "Any time! !uname", "My pleasure" ]
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },{
+            "tag": "ready",
+            "patterns": ["vi are you up !","are ready" , "are you up"],
+            "responses": ["for you sir allways" ,"yes sir am up"]
         }
+
                 
     ]
 }

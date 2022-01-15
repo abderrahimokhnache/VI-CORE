@@ -641,3 +641,50 @@ DEBUG 2022-01-14 13:31:24,549 - url-0: https://translate.google.com/_/TranslateW
 DEBUG 2022-01-14 13:31:24,549 - status-0: 200
 DEBUG 2022-01-14 13:31:24,550 - part-0 written to <_io.BufferedWriter name='temp8888292.mp3'>
 DEBUG 2022-01-14 13:31:24,550 - Saved to temp8888292.mp3
+DEBUG 2022-01-14 15:38:10,942 - pre_processor_funcs: [<function tone_marks at 0x000002B959AD09D8>, <function end_of_line at 0x000002B959ADA1E0>, <function abbreviations at 0x000002B959ADA268>, <function word_sub at 0x000002B959ADA2F0>]
+DEBUG 2022-01-14 15:38:10,942 - lang_check: True
+DEBUG 2022-01-14 15:38:10,943 - slow: False
+DEBUG 2022-01-14 15:38:10,943 - lang: en
+DEBUG 2022-01-14 15:38:10,943 - tld: com
+DEBUG 2022-01-14 15:38:10,943 - text: Ready for you sir
+DEBUG 2022-01-14 15:38:10,943 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-14 15:38:10,944 - pre-processing: <function tone_marks at 0x000002B959AD09D8>
+DEBUG 2022-01-14 15:38:10,945 - pre-processing: <function end_of_line at 0x000002B959ADA1E0>
+DEBUG 2022-01-14 15:38:10,947 - pre-processing: <function abbreviations at 0x000002B959ADA268>
+DEBUG 2022-01-14 15:38:10,957 - pre-processing: <function word_sub at 0x000002B959ADA2F0>
+DEBUG 2022-01-14 15:38:10,957 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-14 15:38:10,957 - text_parts: 1
+DEBUG 2022-01-14 15:38:10,958 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-14 15:38:10,960 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-14 15:38:10,968 - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B95A1A81D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR 2022-01-14 15:38:10,971 - Failed to connect. Probable cause: Unknown
+DEBUG 2022-01-14 15:43:19,622 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:43:19,706 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:43:19,706 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:43:19,903 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:43:19,905 - CoUnititialize() done.
+DEBUG 2022-01-14 15:43:53,461 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:43:53,510 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:43:53,510 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:43:53,635 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:43:53,636 - CoUnititialize() done.
+DEBUG 2022-01-14 15:45:16,319 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:45:16,361 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:45:16,362 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:45:16,471 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:45:16,472 - CoUnititialize() done.
+DEBUG 2022-01-14 15:55:01,282 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:55:01,338 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:55:01,338 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:55:01,506 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:55:01,507 - CoUnititialize() done.
+DEBUG 2022-01-14 15:56:13,652 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:56:13,709 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:56:13,709 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:56:13,844 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:56:13,846 - CoUnititialize() done.
+DEBUG 2022-01-14 15:59:09,039 - CoInitializeEx(None, 2)
+INFO 2022-01-14 15:59:09,089 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-14 15:59:09,090 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-14 15:59:09,212 - Calling CoUnititialize()
+DEBUG 2022-01-14 15:59:09,213 - CoUnititialize() done.
