@@ -1,7 +1,7 @@
 import json , random , Sandbox , os
 from Qalm import json_pen
 from utilities.logger import logerr
-# from nltk.tokenize import word_tokenize,sentence_tokenize 
+from nltk.tokenize import word_tokenize,sent_tokenize 
 
 class Think():
 	check = lambda master_input,patterns :any([pattern in master_input for pattern in patterns]) 
@@ -40,6 +40,7 @@ class Think():
 			if Think.check(master_input,Think.get_patter(tag)) :
 		 		return(tag['tag'] , tag['responses'])
 		return (None , ["Not in intents"])
+
 	@staticmethod
 	def NLP(sentence):
 		prrocess1= "what type of sentence is it"
