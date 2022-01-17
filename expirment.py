@@ -40,7 +40,7 @@ def partofspeechtagging():
 
 # sw()
 # partofspeechtagging()
-stem()
+# stem()
 
 
 
@@ -86,7 +86,24 @@ postags = """
     WRB wh-abverb where, when
 """
 
-# import re
-# >>> m = re.search('(?<=abc)def', 'abcdef')
-# >>> m.group(0)
-# 'def'
+
+
+import re
+
+exampleString = '''
+Jessica is 15 years old, and Daniel is 27 years old.
+Edward is 97 years old, and his grandfather, Oscar, is 102. 
+'''
+
+ages = re.findall(r'\d{1,3}',exampleString)
+names = re.findall(r'[A-Z][a-z]*',exampleString)
+
+# print(ages)
+# print(names)
+
+example = 'search for youtube hkjhk in duckduckgo'
+re.findall(r'@([a-zA-Z]+)','gfgfdAAA1234ZZZuijjk')
+finel = re.findall('(search for) (.*) (in) (.*)' ,example)
+print(finel)
+
+
