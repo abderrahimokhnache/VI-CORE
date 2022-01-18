@@ -104,6 +104,6 @@ names = re.findall(r'[A-Z][a-z]*',exampleString)
 example = 'search for youtube hkjhk in duckduckgo'
 re.findall(r'@([a-zA-Z]+)','gfgfdAAA1234ZZZuijjk')
 finel = re.findall('(search for) (.*) (in) (.*)' ,example)
-print(finel)
+# print(finel)
 
 

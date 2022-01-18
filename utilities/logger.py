@@ -6,5 +6,5 @@ logging.basicConfig(filename = 'issues.log' , level = logging.DEBUG,
 
 logger = logging.getLogger()
 
-def logerr(ex) :
+def log(ex) :
     logger.error(ex)

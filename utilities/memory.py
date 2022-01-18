@@ -1,5 +1,4 @@
 from datetime import datetime
-from lib2to3.pytree import convert
 from Qalm import json_pen
 ctime = datetime.today()
 strtof = "{:%A-%B-%d-%Y,%H:%M:%S}"
@@ -19,6 +18,8 @@ def save_todisstree(tag,input_ , output):
 def save_search_history(service, term):
     track = {'service': service, "term": term, "@time": strtof.format(ctime)}
     json_pen("Sandbox/dep/search_history.json", "a", track, "$schema")
+
+
 
 def save_converstion_history(name,part):
     track = {"name": name,
