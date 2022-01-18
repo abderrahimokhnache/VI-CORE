@@ -823,3 +823,227 @@ INFO 2022-01-17 01:59:26,977 - Imported existing <module 'comtypes.gen' from 'C:
 INFO 2022-01-17 01:59:26,977 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
 DEBUG 2022-01-17 01:59:27,199 - Calling CoUnititialize()
 DEBUG 2022-01-17 01:59:27,200 - CoUnititialize() done.
+DEBUG 2022-01-17 08:49:02,852 - pre_processor_funcs: [<function tone_marks at 0x000001EDFF7CE378>, <function end_of_line at 0x000001EDFF7CEAE8>, <function abbreviations at 0x000001EDFF7CEB70>, <function word_sub at 0x000001EDFF7CEBF8>]
+DEBUG 2022-01-17 08:49:02,860 - lang_check: True
+DEBUG 2022-01-17 08:49:02,860 - slow: False
+DEBUG 2022-01-17 08:49:02,860 - lang: en
+DEBUG 2022-01-17 08:49:02,861 - tld: com
+DEBUG 2022-01-17 08:49:02,861 - text: Ready for you sir
+DEBUG 2022-01-17 08:49:02,861 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 08:49:02,862 - pre-processing: <function tone_marks at 0x000001EDFF7CE378>
+DEBUG 2022-01-17 08:49:02,863 - pre-processing: <function end_of_line at 0x000001EDFF7CEAE8>
+DEBUG 2022-01-17 08:49:02,863 - pre-processing: <function abbreviations at 0x000001EDFF7CEB70>
+DEBUG 2022-01-17 08:49:02,866 - pre-processing: <function word_sub at 0x000001EDFF7CEBF8>
+DEBUG 2022-01-17 08:49:02,867 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-17 08:49:02,867 - text_parts: 1
+DEBUG 2022-01-17 08:49:02,868 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 08:49:02,869 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 08:49:04,842 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 08:49:05,321 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-17 08:49:05,321 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 08:49:05,321 - status-0: 200
+DEBUG 2022-01-17 08:49:05,322 - part-0 written to <_io.BufferedWriter name='temp6173037.mp3'>
+DEBUG 2022-01-17 08:49:05,322 - Saved to temp6173037.mp3
+DEBUG 2022-01-17 08:49:39,758 - CoInitializeEx(None, 2)
+INFO 2022-01-17 08:49:40,039 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 08:49:40,040 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 08:49:40,532 - pre_processor_funcs: [<function tone_marks at 0x000001EDFF7CE378>, <function end_of_line at 0x000001EDFF7CEAE8>, <function abbreviations at 0x000001EDFF7CEB70>, <function word_sub at 0x000001EDFF7CEBF8>]
+DEBUG 2022-01-17 08:49:40,532 - lang_check: True
+DEBUG 2022-01-17 08:49:40,532 - slow: False
+DEBUG 2022-01-17 08:49:40,532 - lang: en
+DEBUG 2022-01-17 08:49:40,532 - tld: com
+DEBUG 2022-01-17 08:49:40,532 - text: the time is 08:49 AM 
+DEBUG 2022-01-17 08:49:40,532 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 08:49:40,535 - pre-processing: <function tone_marks at 0x000001EDFF7CE378>
+DEBUG 2022-01-17 08:49:40,535 - pre-processing: <function end_of_line at 0x000001EDFF7CEAE8>
+DEBUG 2022-01-17 08:49:40,536 - pre-processing: <function abbreviations at 0x000001EDFF7CEB70>
+DEBUG 2022-01-17 08:49:40,536 - pre-processing: <function word_sub at 0x000001EDFF7CEBF8>
+DEBUG 2022-01-17 08:49:40,536 - text_parts: ['the time is 08:49 AM']
+DEBUG 2022-01-17 08:49:40,536 - text_parts: 1
+DEBUG 2022-01-17 08:49:40,537 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22the%20time%20is%2008%3A49%20AM%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 08:49:40,544 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 08:49:41,183 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 08:49:42,710 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+DEBUG 2022-01-17 08:49:42,710 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 08:49:42,710 - status-0: 200
+DEBUG 2022-01-17 08:49:42,711 - part-0 written to <_io.BufferedWriter name='temp13145904.mp3'>
+DEBUG 2022-01-17 08:49:42,711 - Saved to temp13145904.mp3
+DEBUG 2022-01-17 08:50:54,740 - pre_processor_funcs: [<function tone_marks at 0x000001EDFF7CE378>, <function end_of_line at 0x000001EDFF7CEAE8>, <function abbreviations at 0x000001EDFF7CEB70>, <function word_sub at 0x000001EDFF7CEBF8>]
+DEBUG 2022-01-17 08:50:54,740 - lang_check: True
+DEBUG 2022-01-17 08:50:54,740 - slow: False
+DEBUG 2022-01-17 08:50:54,740 - lang: en
+DEBUG 2022-01-17 08:50:54,741 - tld: com
+DEBUG 2022-01-17 08:50:54,741 - text: r
+DEBUG 2022-01-17 08:50:54,741 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 08:50:54,748 - pre-processing: <function tone_marks at 0x000001EDFF7CE378>
+DEBUG 2022-01-17 08:50:54,748 - pre-processing: <function end_of_line at 0x000001EDFF7CEAE8>
+DEBUG 2022-01-17 08:50:54,748 - pre-processing: <function abbreviations at 0x000001EDFF7CEB70>
+DEBUG 2022-01-17 08:50:54,748 - pre-processing: <function word_sub at 0x000001EDFF7CEBF8>
+DEBUG 2022-01-17 08:50:54,748 - text_parts: ['r']
+DEBUG 2022-01-17 08:50:54,748 - text_parts: 1
+DEBUG 2022-01-17 08:50:54,748 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22r%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 08:50:54,752 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 08:50:58,119 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 08:50:58,357 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+DEBUG 2022-01-17 08:50:58,357 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 08:50:58,357 - status-0: 200
+DEBUG 2022-01-17 08:50:58,358 - part-0 written to <_io.BufferedWriter name='temp7415119.mp3'>
+DEBUG 2022-01-17 08:50:58,358 - Saved to temp7415119.mp3
+DEBUG 2022-01-17 08:53:08,584 - pre_processor_funcs: [<function tone_marks at 0x0000012EF5A9E378>, <function end_of_line at 0x0000012EF5A9EAE8>, <function abbreviations at 0x0000012EF5A9EB70>, <function word_sub at 0x0000012EF5A9EBF8>]
+DEBUG 2022-01-17 08:53:08,590 - lang_check: True
+DEBUG 2022-01-17 08:53:08,591 - slow: False
+DEBUG 2022-01-17 08:53:08,591 - lang: en
+DEBUG 2022-01-17 08:53:08,591 - tld: com
+DEBUG 2022-01-17 08:53:08,591 - text: Ready for you sir
+DEBUG 2022-01-17 08:53:08,591 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 08:53:08,592 - pre-processing: <function tone_marks at 0x0000012EF5A9E378>
+DEBUG 2022-01-17 08:53:08,592 - pre-processing: <function end_of_line at 0x0000012EF5A9EAE8>
+DEBUG 2022-01-17 08:53:08,593 - pre-processing: <function abbreviations at 0x0000012EF5A9EB70>
+DEBUG 2022-01-17 08:53:08,594 - pre-processing: <function word_sub at 0x0000012EF5A9EBF8>
+DEBUG 2022-01-17 08:53:08,594 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-17 08:53:08,595 - text_parts: 1
+DEBUG 2022-01-17 08:53:08,595 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 08:53:08,598 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 08:53:15,227 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 08:53:15,230 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-17 08:53:15,231 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 08:53:15,231 - status-0: 200
+DEBUG 2022-01-17 08:53:15,231 - part-0 written to <_io.BufferedWriter name='temp11875639.mp3'>
+DEBUG 2022-01-17 08:53:15,231 - Saved to temp11875639.mp3
+DEBUG 2022-01-17 08:53:55,187 - CoInitializeEx(None, 2)
+INFO 2022-01-17 08:53:55,267 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 08:53:55,268 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 08:53:56,396 - pre_processor_funcs: [<function tone_marks at 0x0000012EF5A9E378>, <function end_of_line at 0x0000012EF5A9EAE8>, <function abbreviations at 0x0000012EF5A9EB70>, <function word_sub at 0x0000012EF5A9EBF8>]
+DEBUG 2022-01-17 08:53:56,396 - lang_check: True
+DEBUG 2022-01-17 08:53:56,396 - slow: False
+DEBUG 2022-01-17 08:53:56,396 - lang: en
+DEBUG 2022-01-17 08:53:56,396 - tld: com
+DEBUG 2022-01-17 08:53:56,396 - text: Here is what I found for  imagine dragons on google
+DEBUG 2022-01-17 08:53:56,396 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 08:53:56,397 - pre-processing: <function tone_marks at 0x0000012EF5A9E378>
+DEBUG 2022-01-17 08:53:56,398 - pre-processing: <function end_of_line at 0x0000012EF5A9EAE8>
+DEBUG 2022-01-17 08:53:56,398 - pre-processing: <function abbreviations at 0x0000012EF5A9EB70>
+DEBUG 2022-01-17 08:53:56,398 - pre-processing: <function word_sub at 0x0000012EF5A9EBF8>
+DEBUG 2022-01-17 08:53:56,398 - text_parts: ['Here is what I found for  imagine dragons on google']
+DEBUG 2022-01-17 08:53:56,398 - text_parts: 1
+DEBUG 2022-01-17 08:53:56,398 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Here%20is%20what%20I%20found%20for%20%20imagine%20dragons%20on%20google%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 08:53:56,404 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 08:53:58,996 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 08:54:05,072 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '201'}
+DEBUG 2022-01-17 08:54:05,073 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 08:54:05,073 - status-0: 200
+DEBUG 2022-01-17 08:54:05,074 - part-0 written to <_io.BufferedWriter name='temp5383064.mp3'>
+DEBUG 2022-01-17 08:54:05,074 - Saved to temp5383064.mp3
+DEBUG 2022-01-17 08:54:43,888 - Calling CoUnititialize()
+DEBUG 2022-01-17 08:54:43,888 - CoUnititialize() done.
+DEBUG 2022-01-17 09:16:47,711 - pre_processor_funcs: [<function tone_marks at 0x000001EEBF28D378>, <function end_of_line at 0x000001EEBF28DAE8>, <function abbreviations at 0x000001EEBF28DB70>, <function word_sub at 0x000001EEBF28DBF8>]
+DEBUG 2022-01-17 09:16:47,714 - lang_check: True
+DEBUG 2022-01-17 09:16:47,714 - slow: False
+DEBUG 2022-01-17 09:16:47,714 - lang: en
+DEBUG 2022-01-17 09:16:47,715 - tld: com
+DEBUG 2022-01-17 09:16:47,715 - text: Ready for you sir
+DEBUG 2022-01-17 09:16:47,715 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-17 09:16:47,717 - pre-processing: <function tone_marks at 0x000001EEBF28D378>
+DEBUG 2022-01-17 09:16:47,718 - pre-processing: <function end_of_line at 0x000001EEBF28DAE8>
+DEBUG 2022-01-17 09:16:47,719 - pre-processing: <function abbreviations at 0x000001EEBF28DB70>
+DEBUG 2022-01-17 09:16:47,720 - pre-processing: <function word_sub at 0x000001EEBF28DBF8>
+DEBUG 2022-01-17 09:16:47,721 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-17 09:16:47,721 - text_parts: 1
+DEBUG 2022-01-17 09:16:47,723 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-17 09:16:47,725 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-17 09:16:51,894 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-17 09:16:53,729 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-17 09:16:53,730 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-17 09:16:53,730 - status-0: 200
+DEBUG 2022-01-17 09:16:53,730 - part-0 written to <_io.BufferedWriter name='temp17857077.mp3'>
+DEBUG 2022-01-17 09:16:53,730 - Saved to temp17857077.mp3
+DEBUG 2022-01-17 09:17:27,198 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:17:27,398 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:17:27,404 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:17:28,166 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:17:28,166 - CoUnititialize() done.
+DEBUG 2022-01-17 09:20:32,490 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:20:32,539 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:20:32,539 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:20:32,692 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:20:32,693 - CoUnititialize() done.
+DEBUG 2022-01-17 09:21:33,933 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:21:33,984 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:21:33,984 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:21:34,656 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:21:34,657 - CoUnititialize() done.
+DEBUG 2022-01-17 09:24:08,293 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:24:08,360 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:24:08,361 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:24:08,864 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:24:08,864 - CoUnititialize() done.
+DEBUG 2022-01-17 09:35:16,393 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:35:16,448 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:35:16,449 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:35:16,905 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:35:16,905 - CoUnititialize() done.
+DEBUG 2022-01-17 09:36:02,693 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:36:02,771 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:36:02,772 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:36:03,222 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:36:03,222 - CoUnititialize() done.
+DEBUG 2022-01-17 09:36:29,635 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:36:29,724 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:36:29,725 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:36:30,183 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:36:30,184 - CoUnititialize() done.
+DEBUG 2022-01-17 09:36:52,295 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:36:52,345 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:36:52,346 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:36:52,874 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:36:52,875 - CoUnititialize() done.
+DEBUG 2022-01-17 09:46:17,765 - CoInitializeEx(None, 2)
+INFO 2022-01-17 09:46:17,816 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-17 09:46:17,816 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-17 09:46:18,359 - Calling CoUnititialize()
+DEBUG 2022-01-17 09:46:18,359 - CoUnititialize() done.
+DEBUG 2022-01-18 03:14:00,856 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:14:00,998 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:14:00,999 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:14:01,625 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:14:01,626 - CoUnititialize() done.
+DEBUG 2022-01-18 03:21:26,647 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:21:26,697 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:21:26,697 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:21:26,996 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:21:26,997 - CoUnititialize() done.
+DEBUG 2022-01-18 03:21:48,771 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:21:48,815 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:21:48,816 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:21:49,050 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:21:49,050 - CoUnititialize() done.
+DEBUG 2022-01-18 03:44:46,427 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:44:46,480 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:44:46,481 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:44:46,902 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:44:46,903 - CoUnititialize() done.
+DEBUG 2022-01-18 03:45:17,134 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:45:17,172 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:45:17,173 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:45:17,404 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:45:17,405 - CoUnititialize() done.
+DEBUG 2022-01-18 03:46:05,365 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:46:05,423 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:46:05,424 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:46:05,896 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:46:05,896 - CoUnititialize() done.
+DEBUG 2022-01-18 03:49:33,094 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:49:33,138 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:49:33,139 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:49:33,622 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:49:33,623 - CoUnititialize() done.
+DEBUG 2022-01-18 03:49:57,158 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:49:57,203 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:49:57,204 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:49:57,661 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:49:57,661 - CoUnititialize() done.
+DEBUG 2022-01-18 03:53:51,809 - CoInitializeEx(None, 2)
+INFO 2022-01-18 03:53:51,849 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 03:53:51,849 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 03:53:52,589 - Calling CoUnititialize()
+DEBUG 2022-01-18 03:53:52,589 - CoUnititialize() done.

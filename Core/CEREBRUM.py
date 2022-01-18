@@ -1,5 +1,7 @@
 import json , random , Sandbox , os
+from re import search
 from Qalm import json_pen
+from Sandbox import search_system
 from utilities.logger import logerr
 from nltk.tokenize import word_tokenize,sent_tokenize 
 
@@ -13,7 +15,8 @@ class Think():
 			tag,response = Think.noaction(input_)
 		if tag == None:
 			"""add other db"""
-			tag, response = ("not categorized" , ["Not in the system"])
+			tag , response =search_system.execute(input_)
+			# tag, response = ("not categorized" , ["Not in the system"])
 		
 		self.output = random.choice(response)
 		self.tag = tag
@@ -30,6 +33,7 @@ class Think():
 						if tag["exe-resp"]:
 							return teg_exe
 						return(tag['tag'] , tag['responses'])
+
 		
 		return (None , ["Not in features"])
 		

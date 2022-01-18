@@ -1,0 +1,24 @@
+{
+   "$schema": [
+      {
+         "service": "google",
+         "term": "css",
+         "@time": "Monday-January-17-2022,09:36:01"
+      },
+      {
+         "service": "google",
+         "term": "css",
+         "@time": "Monday-January-17-2022,09:36:28"
+      },
+      {
+         "service": "youtube",
+         "term": "css",
+         "@time": "Monday-January-17-2022,09:36:51"
+      },
+      {
+         "service": "youtube",
+         "term": "css",
+         "@time": "Monday-January-17-2022,09:46:16"
+      }
+   ]
+}

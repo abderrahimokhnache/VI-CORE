@@ -107,6 +107,24 @@
          "input": "hi there",
          "output": "Good to see you again !uname",
          "@time": "Friday-January-14-2022,13:27:33"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 08:49 AM ",
+         "@time": "Monday-January-17-2022,08:49:02"
+      },
+      {
+         "tag": "google search",
+         "input": "search for imagine",
+         "output": "r",
+         "@time": "Monday-January-17-2022,08:49:02"
+      },
+      {
+         "tag": "google search",
+         "input": "search for imagine dragons",
+         "output": "Here is what I found for  imagine dragons on google",
+         "@time": "Monday-January-17-2022,08:53:08"
       }
    ]
 }
