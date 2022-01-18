@@ -125,6 +125,24 @@
          "input": "search for imagine dragons",
          "output": "Here is what I found for  imagine dragons on google",
          "@time": "Monday-January-17-2022,08:53:08"
+      },
+      {
+         "tag": "issue",
+         "input": "search for imagine dragons",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,10:40:08"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,10:40:08"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 10:57 AM ",
+         "@time": "Tuesday-January-18-2022,10:56:48"
       }
    ]
 }

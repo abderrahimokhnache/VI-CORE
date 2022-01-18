@@ -1,8 +1,9 @@
-from nltk.tokenize import word_tokenize,sent_tokenize ,PunktSentenceTokenizer 
+import chunk
+from nltk.tokenize import word_tokenize,sent_tokenize ,PunktSentenceTokenizer
 from nltk.corpus import stopwords,state_union
 from nltk.stem import PorterStemmer
 import nltk
-def token(inputs):    
+def token(inputs):
     # input = "hi vi what time is it"
     return (sent_tokenize(inputs))
 
@@ -27,16 +28,25 @@ def partofspeechtagging():
 
     costum_set_token = PunktSentenceTokenizer(train_sample)
     tokenized = costum_set_token.tokenize(sample)
-    try :
-        for i in tokenized:
-            words = word_tokenize(i)
-            tagged = nltk.pos_tag(words)
-            print(tagged)
-    except Exception as e :
-            print(e) 
+    chunkgram = r"""Chunk:{<.*>+}
+                    }<VB.?|IN|DT>+{ """
+    # chunkgram = r"""Chunk:{<RB.?>*<VB.?>*<NNP>+<NN>?}"""
+    chunkparser = nltk.RegexpParser(chunkgram)
+    for n,i in enumerate(tokenized):
+        words = word_tokenize(i)
+        tagged = nltk.pos_tag(words)
+        chunked = chunkparser.parse(tagged)
+        chunked.pretty_print()
+        # print(dir(chunked))
+        break
 
 
-
+# words = word_tokenize('search for css in youtube')
+# tagged = nltk.pos_tag(words)
+# chunkgram = r"""Chunk:{<VB.?>*}"""
+# chunkparser = nltk.RegexpParser(chunkgram)
+# chunked = chunkparser.parse(tagged)
+# print(chunked)
 
 # sw()
 # partofspeechtagging()
@@ -47,7 +57,7 @@ def partofspeechtagging():
 
 
 
-            
+
 postags = """
     CC coordinating conjunction
     CD cardinal digit
@@ -107,3 +117,17 @@ finel = re.findall('(search for) (.*) (in) (.*)' ,example)
 # print(finel)
 
 
+def partofspeechtagging():
+    sample = state_union.raw("2005-GWBush.txt")
+    train_sample = state_union.raw("2006-GWBush.txt")
+
+    costum_set_token = PunktSentenceTokenizer(train_sample)
+    tokenized = costum_set_token.tokenize(sample)
+    for i in tokenized:
+        words = word_tokenize(i)
+        tagged = nltk.pos_tag(words)
+
+# partofspeechtagging()
+# sample="search for css animatation on youtube"
+
+# print(re.findall('(search for|look for|find) (.+) (in|on) (.+)', sample))

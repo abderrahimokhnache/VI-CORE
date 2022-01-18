@@ -1,8 +1,5 @@
-import json , random , Sandbox , os
-from re import search
+import random , Sandbox , os
 from Qalm import json_pen
-from Sandbox import search_system
-from utilities.logger import log
 from nltk.tokenize import word_tokenize,sent_tokenize 
 
 class Think():

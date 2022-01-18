@@ -1,4 +1,3 @@
-from utilities import logger
 import webbrowser , re ,threading
 from utilities.memory import get_converstion_info, save_search_history ,last_diss ,save_converstion_history
 
@@ -23,7 +22,7 @@ def open_url(url):
     threading.Thread(target =webbrowser.get().open(url)).start()
 
 def parse(sent):
-    result = re.findall('(search for|look for|find) (.*) (in|on) (.*)' ,sent)[0]
+    result = re.findall('(search for|look for|find) (.+) (in|on) (.+)' ,sent)[0]
     service = result[3]
     term = result[1]
     return service , term
@@ -41,7 +40,8 @@ def execute(search_term =''):
                 return f'{service} search' ,[f"Here is what I found for {term} on {service}"]
 
     except Exception as e :
-        logger.log(e)
+        # logger.log(e)
+        raise e
         return 'issue', ["sorry am having some issues with that try agein"]
     return 'unkown service', ["i can't access the service"]
 
