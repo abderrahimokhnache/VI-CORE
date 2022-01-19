@@ -115,6 +115,7 @@ example = 'search for youtube hkjhk in duckduckgo'
 re.findall(r'@([a-zA-Z]+)','gfgfdAAA1234ZZZuijjk')
 finel = re.findall('(search for) (.*) (in) (.*)' ,example)
 # print(finel)
+# print(re.findall('(search for|look for|find) (.+) (in|on) (.+)', sample))
 
 
 def partofspeechtagging():
@@ -130,4 +131,3 @@ def partofspeechtagging():
 # partofspeechtagging()
 # sample="search for css animatation on youtube"
 
-# print(re.findall('(search for|look for|find) (.+) (in|on) (.+)', sample))

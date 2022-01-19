@@ -1,0 +1,28 @@
+{
+
+    "$schema": [
+{
+    "tag": "run_apps",
+    "patterns": [
+        "open"
+    ],
+    "responses": [
+        "Done ",
+        "Got it"
+    ],"exe-resp":false
+},
+{
+    "tag": "search_system",
+    "patterns": [
+        "search for",
+        "google it",
+        "look for",
+        "find",
+        "search"
+    ],
+    "exe-resp":true
+}
+
+
+    ]
+}

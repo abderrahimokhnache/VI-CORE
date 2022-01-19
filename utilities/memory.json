@@ -143,6 +143,282 @@
          "input": "what time is it",
          "output": "the time is 10:57 AM ",
          "@time": "Tuesday-January-18-2022,10:56:48"
+      },
+      {
+         "tag": "not categorized",
+         "input": "ready feliz",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "not categorized",
+         "input": "readi pengesa",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 12:39 PM ",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "youtube search",
+         "input": "search for css on the",
+         "output": "Here is what I found for css on youtube",
+         "@time": "Tuesday-January-18-2022,12:39:35"
+      },
+      {
+         "tag": "not categorized",
+         "input": " ",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "unkown service",
+         "input": "search for css on image",
+         "output": "i can't access the service",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "not categorized",
+         "input": "readi pengesa",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,12:35:45"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 13:02 PM ",
+         "@time": "Tuesday-January-18-2022,13:02:39"
+      },
+      {
+         "tag": "google search",
+         "input": "search for x in google",
+         "output": "Here is what I found for x on google",
+         "@time": "Tuesday-January-18-2022,13:02:39"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 13:05 PM ",
+         "@time": "Tuesday-January-18-2022,13:04:51"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it ",
+         "output": "it is 13:05 PM ",
+         "@time": "Tuesday-January-18-2022,13:05:17"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it ",
+         "output": "it is 13:05 PM ",
+         "@time": "Tuesday-January-18-2022,13:05:42"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it ",
+         "output": "the time is 13:06 PM ",
+         "@time": "Tuesday-January-18-2022,13:06:37"
+      },
+      {
+         "tag": "unkown service",
+         "input": "search for css on a",
+         "output": "i can't access the service",
+         "@time": "Tuesday-January-18-2022,13:07:47"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css animation",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:07:47"
+      },
+      {
+         "tag": "not categorized",
+         "input": "ready for you",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css anime",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": "readi pengesa",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 13:11 PM ",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 13:17 PM ",
+         "@time": "Tuesday-January-18-2022,13:17:22"
+      },
+      {
+         "tag": "time",
+         "input": "the time is 1",
+         "output": "it is 13:11 PM ",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "unkown service",
+         "input": "search for css on the",
+         "output": "i can't access the service",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css animation",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": "sensual c. f. s. economy",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:18:07"
+      },
+      {
+         "tag": "not categorized",
+         "input": "such was the as",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:18:07"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css animation",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": "ready for you",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "issue",
+         "input": "search for cvs",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css hunley",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": "readi pengesa",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": " ",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": " ",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:22:48"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css online",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:08:40"
+      },
+      {
+         "tag": "not categorized",
+         "input": " ",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:22:48"
+      },
+      {
+         "tag": "not categorized",
+         "input": " ",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:23:56"
+      },
+      {
+         "tag": "youtube search",
+         "input": "search for css animation on youtube",
+         "output": "Here is what I found for css animation on youtube",
+         "@time": "Tuesday-January-18-2022,13:31:04"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css animation on",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,13:34:05"
+      },
+      {
+         "tag": "youtube search",
+         "input": "search for css animation on youtube",
+         "output": "Here is what I found for css animation on youtube",
+         "@time": "Tuesday-January-18-2022,13:34:05"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 13:35 PM ",
+         "@time": "Tuesday-January-18-2022,13:34:05"
+      },
+      {
+         "tag": "third party apps",
+         "input": "open blender",
+         "output": "Got it",
+         "@time": "Tuesday-January-18-2022,13:34:05"
+      },
+      {
+         "tag": "third party apps",
+         "input": "open files",
+         "output": "Done ",
+         "@time": "Tuesday-January-18-2022,13:34:05"
+      },
+      {
+         "tag": "not categorized",
+         "input": "albert einstein",
+         "output": "Not in the system",
+         "@time": "Tuesday-January-18-2022,13:40:45"
+      },
+      {
+         "tag": "youtube search",
+         "input": "search for albert einstein on youtube",
+         "output": "Here is what I found for albert einstein on youtube",
+         "@time": "Tuesday-January-18-2022,13:42:53"
+      },
+      {
+         "tag": "issue",
+         "input": "search for css animation",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Tuesday-January-18-2022,14:18:16"
+      },
+      {
+         "tag": "youtube search",
+         "input": "search for css animation on youtube",
+         "output": "Here is what I found for css animation on youtube",
+         "@time": "Tuesday-January-18-2022,14:18:16"
       }
    ]
 }

@@ -1,8 +1,8 @@
 
+import sys
 from Core.CEREBRUM import Think
 from utilities.spark import Listen ,Talk
 from utilities.memory import save_todisstree
-
 class wakeup:
 
     @staticmethod
@@ -10,10 +10,10 @@ class wakeup:
         greet = Talk("Ready for you sir")
         while True:
             input_ = Listen()
-            print(input_)
-            output_process = Think(input_)
-            Talk(output_process.output)
-            save_todisstree(output_process.tag,input_, output_process.output)
+            if input_ != " ":
+                output_process = Think(input_)
+                Talk(output_process.output)
+                save_todisstree(output_process.tag,input_, output_process.output)
 
     @staticmethod
     def cli(**karwgs):
@@ -36,4 +36,8 @@ class wakeup:
 
 if __name__ == "__main__":
     init =wakeup()
-    init.onlyspeechrecog()
+    try:
+        if sys.argv[1] == "cli":
+            init.cli(talk =sys.argv[2])
+    except :
+        init.onlyspeechrecog()

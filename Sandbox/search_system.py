@@ -1,5 +1,5 @@
 import webbrowser , re ,threading
-from utilities.memory import get_converstion_info, save_search_history ,last_diss ,save_converstion_history
+from utilities.memory import save_search_history 
 
 def discription():
     discription_dict = {
@@ -19,7 +19,8 @@ services = [
 ]
 
 def open_url(url):
-    threading.Thread(target =webbrowser.get().open(url)).start()
+    trad=threading.Thread(target =webbrowser.get().open(url)).start()
+
 
 def parse(sent):
     result = re.findall('(search for|look for|find) (.+) (in|on) (.+)' ,sent)[0]
@@ -30,43 +31,14 @@ def parse(sent):
 
 
 def execute(search_term =''):
-    try :
-        
+    try : 
         service , term  = parse(search_term)
         for tag in services :
             if tag['service'] == service:
                 open_url(tag["url"]+term)
                 save_search_history(service, term)
                 return f'{service} search' ,[f"Here is what I found for {term} on {service}"]
-
-    except Exception as e :
-        # logger.log(e)
-        raise e
+    except IndexError :
+        """add search service if not found in the dict"""
         return 'issue', ["sorry am having some issues with that try agein"]
     return 'unkown service', ["i can't access the service"]
-
-
-
-    # from datetime import datetime
-
-    # ctime = datetime.today()
-    # strtof = "{:%H%M%S}"
-    # ctime =int(strtof.format(ctime))
-    # check = get_converstion_info("expact search", -1)
-    # if check :
-    #     open_url('https://google.com/search?q='+search_term)
-    #     return f'google search' ,[f"Here is what I found for {search_term} on google"]
-
-
-
-
-
-    # if search_term =="search":
-    #     save_converstion_history('expact search',"expaction")
-
-    #     return "expact search" , ["what do you want to search for !"]
-    if "google it" in search_term :
-        tree = last_diss()['input']
-        url = "https://google.com/search?q=" + tree
-        webbrowser.get().open(url)
-        return "google search" ,[f"Here is what I found for {tree} on google"]

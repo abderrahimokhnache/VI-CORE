@@ -328,3 +328,420 @@ DEBUG 2022-01-18 11:07:04,107 - url-0: https://translate.google.com/_/TranslateW
 DEBUG 2022-01-18 11:07:04,107 - status-0: 200
 DEBUG 2022-01-18 11:07:04,108 - part-0 written to <_io.BufferedWriter name='temp5470042.mp3'>
 DEBUG 2022-01-18 11:07:04,108 - Saved to temp5470042.mp3
+DEBUG 2022-01-18 11:10:14,952 - pre_processor_funcs: [<function tone_marks at 0x000001635430E268>, <function end_of_line at 0x000001635430E9D8>, <function abbreviations at 0x000001635430EA60>, <function word_sub at 0x000001635430EAE8>]
+DEBUG 2022-01-18 11:10:14,952 - lang_check: True
+DEBUG 2022-01-18 11:10:14,953 - slow: False
+DEBUG 2022-01-18 11:10:14,953 - lang: en
+DEBUG 2022-01-18 11:10:14,954 - tld: com
+DEBUG 2022-01-18 11:10:14,955 - text: Ready for you sir
+DEBUG 2022-01-18 11:10:14,955 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 11:10:14,964 - pre-processing: <function tone_marks at 0x000001635430E268>
+DEBUG 2022-01-18 11:10:14,966 - pre-processing: <function end_of_line at 0x000001635430E9D8>
+DEBUG 2022-01-18 11:10:14,966 - pre-processing: <function abbreviations at 0x000001635430EA60>
+DEBUG 2022-01-18 11:10:14,970 - pre-processing: <function word_sub at 0x000001635430EAE8>
+DEBUG 2022-01-18 11:10:14,970 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 11:10:14,971 - text_parts: 1
+DEBUG 2022-01-18 11:10:14,971 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 11:10:14,994 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 11:10:17,709 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 11:10:18,286 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 11:10:18,286 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 11:10:18,286 - status-0: 200
+DEBUG 2022-01-18 11:10:18,287 - part-0 written to <_io.BufferedWriter name='temp12973822.mp3'>
+DEBUG 2022-01-18 11:10:18,288 - Saved to temp12973822.mp3
+DEBUG 2022-01-18 11:10:57,978 - pre_processor_funcs: [<function tone_marks at 0x000002215EDCD268>, <function end_of_line at 0x000002215EDCD9D8>, <function abbreviations at 0x000002215EDCDA60>, <function word_sub at 0x000002215EDCDAE8>]
+DEBUG 2022-01-18 11:10:57,979 - lang_check: True
+DEBUG 2022-01-18 11:10:57,979 - slow: False
+DEBUG 2022-01-18 11:10:57,979 - lang: en
+DEBUG 2022-01-18 11:10:57,979 - tld: com
+DEBUG 2022-01-18 11:10:57,980 - text: Ready for you sir
+DEBUG 2022-01-18 11:10:57,980 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 11:10:57,980 - pre-processing: <function tone_marks at 0x000002215EDCD268>
+DEBUG 2022-01-18 11:10:57,981 - pre-processing: <function end_of_line at 0x000002215EDCD9D8>
+DEBUG 2022-01-18 11:10:57,982 - pre-processing: <function abbreviations at 0x000002215EDCDA60>
+DEBUG 2022-01-18 11:10:57,983 - pre-processing: <function word_sub at 0x000002215EDCDAE8>
+DEBUG 2022-01-18 11:10:57,983 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 11:10:57,984 - text_parts: 1
+DEBUG 2022-01-18 11:10:57,985 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 11:10:57,987 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 11:10:59,530 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 11:10:59,769 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 11:10:59,769 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 11:10:59,769 - status-0: 200
+DEBUG 2022-01-18 11:10:59,770 - part-0 written to <_io.BufferedWriter name='temp6441817.mp3'>
+DEBUG 2022-01-18 11:10:59,770 - Saved to temp6441817.mp3
+DEBUG 2022-01-18 12:35:46,046 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:35:46,047 - lang_check: True
+DEBUG 2022-01-18 12:35:46,047 - slow: False
+DEBUG 2022-01-18 12:35:46,047 - lang: en
+DEBUG 2022-01-18 12:35:46,047 - tld: com
+DEBUG 2022-01-18 12:35:46,047 - text: Ready for you sir
+DEBUG 2022-01-18 12:35:46,047 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:35:46,048 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:35:46,049 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:35:46,050 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:35:46,052 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:35:46,053 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:35:46,054 - text_parts: 1
+DEBUG 2022-01-18 12:35:46,058 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:35:46,063 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:35:47,403 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:35:47,511 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:35:47,512 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:35:47,512 - status-0: 200
+DEBUG 2022-01-18 12:35:47,512 - part-0 written to <_io.BufferedWriter name='temp17059222.mp3'>
+DEBUG 2022-01-18 12:35:47,512 - Saved to temp17059222.mp3
+DEBUG 2022-01-18 12:39:03,022 - pre_processor_funcs: [<function tone_marks at 0x00000274994E4BF8>, <function end_of_line at 0x00000274994E4C80>, <function abbreviations at 0x00000274994E4D08>, <function word_sub at 0x00000274994E4D90>]
+DEBUG 2022-01-18 12:39:03,023 - lang_check: True
+DEBUG 2022-01-18 12:39:03,024 - slow: False
+DEBUG 2022-01-18 12:39:03,024 - lang: en
+DEBUG 2022-01-18 12:39:03,024 - tld: com
+DEBUG 2022-01-18 12:39:03,024 - text: Ready for you sir
+DEBUG 2022-01-18 12:39:03,025 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:39:03,032 - pre-processing: <function tone_marks at 0x00000274994E4BF8>
+DEBUG 2022-01-18 12:39:03,043 - pre-processing: <function end_of_line at 0x00000274994E4C80>
+DEBUG 2022-01-18 12:39:03,044 - pre-processing: <function abbreviations at 0x00000274994E4D08>
+DEBUG 2022-01-18 12:39:03,056 - pre-processing: <function word_sub at 0x00000274994E4D90>
+DEBUG 2022-01-18 12:39:03,057 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:39:03,059 - text_parts: 1
+DEBUG 2022-01-18 12:39:03,060 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:39:03,076 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:39:04,552 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:39:04,678 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:39:04,679 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:39:04,679 - status-0: 200
+DEBUG 2022-01-18 12:39:04,680 - part-0 written to <_io.BufferedWriter name='temp14243773.mp3'>
+DEBUG 2022-01-18 12:39:04,681 - Saved to temp14243773.mp3
+DEBUG 2022-01-18 12:39:07,726 - CoInitializeEx(None, 2)
+INFO 2022-01-18 12:39:07,888 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 12:39:07,888 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 12:39:08,579 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:39:08,579 - lang_check: True
+DEBUG 2022-01-18 12:39:08,580 - slow: False
+DEBUG 2022-01-18 12:39:08,592 - lang: en
+DEBUG 2022-01-18 12:39:08,592 - tld: com
+DEBUG 2022-01-18 12:39:08,592 - text: Not in the system
+DEBUG 2022-01-18 12:39:08,592 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:39:08,596 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:39:08,597 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:39:08,597 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:39:08,597 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:39:08,597 - text_parts: ['Not in the system']
+DEBUG 2022-01-18 12:39:08,597 - text_parts: 1
+DEBUG 2022-01-18 12:39:08,597 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Not%20in%20the%20system%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:39:08,599 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:39:09,205 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:39:09,313 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:39:09,314 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:39:09,314 - status-0: 200
+DEBUG 2022-01-18 12:39:09,314 - part-0 written to <_io.BufferedWriter name='temp11933275.mp3'>
+DEBUG 2022-01-18 12:39:09,314 - Saved to temp11933275.mp3
+DEBUG 2022-01-18 12:39:35,817 - pre_processor_funcs: [<function tone_marks at 0x000001DE4A546BF8>, <function end_of_line at 0x000001DE4A546C80>, <function abbreviations at 0x000001DE4A546D08>, <function word_sub at 0x000001DE4A546D90>]
+DEBUG 2022-01-18 12:39:35,817 - lang_check: True
+DEBUG 2022-01-18 12:39:35,818 - slow: False
+DEBUG 2022-01-18 12:39:35,818 - lang: en
+DEBUG 2022-01-18 12:39:35,818 - tld: com
+DEBUG 2022-01-18 12:39:35,821 - text: Ready for you sir
+DEBUG 2022-01-18 12:39:35,821 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:39:35,824 - pre-processing: <function tone_marks at 0x000001DE4A546BF8>
+DEBUG 2022-01-18 12:39:35,830 - pre-processing: <function end_of_line at 0x000001DE4A546C80>
+DEBUG 2022-01-18 12:39:35,831 - pre-processing: <function abbreviations at 0x000001DE4A546D08>
+DEBUG 2022-01-18 12:39:35,840 - pre-processing: <function word_sub at 0x000001DE4A546D90>
+DEBUG 2022-01-18 12:39:35,841 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:39:35,843 - text_parts: 1
+DEBUG 2022-01-18 12:39:35,846 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:39:35,859 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:39:37,279 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:39:37,395 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:39:37,395 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:39:37,395 - status-0: 200
+DEBUG 2022-01-18 12:39:37,397 - part-0 written to <_io.BufferedWriter name='temp12453382.mp3'>
+DEBUG 2022-01-18 12:39:37,397 - Saved to temp12453382.mp3
+DEBUG 2022-01-18 12:39:40,167 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:39:40,167 - lang_check: True
+DEBUG 2022-01-18 12:39:40,167 - slow: False
+DEBUG 2022-01-18 12:39:40,168 - lang: en
+DEBUG 2022-01-18 12:39:40,168 - tld: com
+DEBUG 2022-01-18 12:39:40,168 - text: Not in the system
+DEBUG 2022-01-18 12:39:40,168 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:39:40,171 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:39:40,171 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:39:40,171 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:39:40,171 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:39:40,171 - text_parts: ['Not in the system']
+DEBUG 2022-01-18 12:39:40,172 - text_parts: 1
+DEBUG 2022-01-18 12:39:40,172 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Not%20in%20the%20system%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:39:40,173 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:39:40,671 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:39:40,795 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:39:40,795 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:39:40,795 - status-0: 200
+DEBUG 2022-01-18 12:39:40,796 - part-0 written to <_io.BufferedWriter name='temp16222938.mp3'>
+DEBUG 2022-01-18 12:39:40,796 - Saved to temp16222938.mp3
+DEBUG 2022-01-18 12:40:00,325 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:40:00,325 - lang_check: True
+DEBUG 2022-01-18 12:40:00,325 - slow: False
+DEBUG 2022-01-18 12:40:00,325 - lang: en
+DEBUG 2022-01-18 12:40:00,325 - tld: com
+DEBUG 2022-01-18 12:40:00,325 - text: it is 12:39 PM 
+DEBUG 2022-01-18 12:40:00,326 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:40:00,327 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:40:00,327 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:40:00,328 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:40:00,328 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:40:00,328 - text_parts: ['it is 12:39 PM']
+DEBUG 2022-01-18 12:40:00,328 - text_parts: 1
+DEBUG 2022-01-18 12:40:00,329 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22it%20is%2012%3A39%20PM%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:40:00,332 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:40:01,278 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:40:01,486 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG 2022-01-18 12:40:01,486 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:40:01,486 - status-0: 200
+DEBUG 2022-01-18 12:40:01,487 - part-0 written to <_io.BufferedWriter name='temp18086310.mp3'>
+DEBUG 2022-01-18 12:40:01,487 - Saved to temp18086310.mp3
+DEBUG 2022-01-18 12:41:53,419 - CoInitializeEx(None, 2)
+INFO 2022-01-18 12:41:53,506 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 12:41:53,511 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 12:41:54,264 - pre_processor_funcs: [<function tone_marks at 0x000001DE4A546BF8>, <function end_of_line at 0x000001DE4A546C80>, <function abbreviations at 0x000001DE4A546D08>, <function word_sub at 0x000001DE4A546D90>]
+DEBUG 2022-01-18 12:41:54,265 - lang_check: True
+DEBUG 2022-01-18 12:41:54,265 - slow: False
+DEBUG 2022-01-18 12:41:54,265 - lang: en
+DEBUG 2022-01-18 12:41:54,266 - tld: com
+DEBUG 2022-01-18 12:41:54,266 - text: Here is what I found for css on youtube
+DEBUG 2022-01-18 12:41:54,266 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:41:54,268 - pre-processing: <function tone_marks at 0x000001DE4A546BF8>
+DEBUG 2022-01-18 12:41:54,268 - pre-processing: <function end_of_line at 0x000001DE4A546C80>
+DEBUG 2022-01-18 12:41:54,269 - pre-processing: <function abbreviations at 0x000001DE4A546D08>
+DEBUG 2022-01-18 12:41:54,269 - pre-processing: <function word_sub at 0x000001DE4A546D90>
+DEBUG 2022-01-18 12:41:54,269 - text_parts: ['Here is what I found for css on youtube']
+DEBUG 2022-01-18 12:41:54,270 - text_parts: 1
+DEBUG 2022-01-18 12:41:54,270 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Here%20is%20what%20I%20found%20for%20css%20on%20youtube%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:41:54,286 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:41:55,189 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:41:55,394 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '185'}
+DEBUG 2022-01-18 12:41:55,394 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:41:55,394 - status-0: 200
+DEBUG 2022-01-18 12:41:55,395 - part-0 written to <_io.BufferedWriter name='temp954627.mp3'>
+DEBUG 2022-01-18 12:41:55,396 - Saved to temp954627.mp3
+DEBUG 2022-01-18 12:41:58,253 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:41:58,254 - lang_check: True
+DEBUG 2022-01-18 12:41:58,254 - slow: False
+DEBUG 2022-01-18 12:41:58,254 - lang: en
+DEBUG 2022-01-18 12:41:58,254 - tld: com
+DEBUG 2022-01-18 12:41:58,254 - text: Not in the system
+DEBUG 2022-01-18 12:41:58,254 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:41:58,255 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:41:58,255 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:41:58,255 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:41:58,256 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:41:58,256 - text_parts: ['Not in the system']
+DEBUG 2022-01-18 12:41:58,256 - text_parts: 1
+DEBUG 2022-01-18 12:41:58,256 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Not%20in%20the%20system%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:41:58,259 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:41:58,830 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:41:58,959 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:41:58,960 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:41:58,960 - status-0: 200
+DEBUG 2022-01-18 12:41:58,960 - part-0 written to <_io.BufferedWriter name='temp13316030.mp3'>
+DEBUG 2022-01-18 12:41:58,960 - Saved to temp13316030.mp3
+DEBUG 2022-01-18 12:43:20,642 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:43:20,643 - lang_check: True
+DEBUG 2022-01-18 12:43:20,643 - slow: False
+DEBUG 2022-01-18 12:43:20,643 - lang: en
+DEBUG 2022-01-18 12:43:20,643 - tld: com
+DEBUG 2022-01-18 12:43:20,644 - text: i can't access the service
+DEBUG 2022-01-18 12:43:20,644 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:43:20,646 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:43:20,647 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:43:20,647 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:43:20,648 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:43:20,648 - text_parts: ["i can't access the service"]
+DEBUG 2022-01-18 12:43:20,648 - text_parts: 1
+DEBUG 2022-01-18 12:43:20,648 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22i%20can%27t%20access%20the%20service%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:43:20,650 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:43:21,258 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:43:21,418 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+DEBUG 2022-01-18 12:43:21,418 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:43:21,418 - status-0: 200
+DEBUG 2022-01-18 12:43:21,419 - part-0 written to <_io.BufferedWriter name='temp4151761.mp3'>
+DEBUG 2022-01-18 12:43:21,419 - Saved to temp4151761.mp3
+DEBUG 2022-01-18 12:44:20,465 - pre_processor_funcs: [<function tone_marks at 0x0000025AFC7E7BF8>, <function end_of_line at 0x0000025AFC7E7C80>, <function abbreviations at 0x0000025AFC7E7D08>, <function word_sub at 0x0000025AFC7E7D90>]
+DEBUG 2022-01-18 12:44:20,466 - lang_check: True
+DEBUG 2022-01-18 12:44:20,466 - slow: False
+DEBUG 2022-01-18 12:44:20,466 - lang: en
+DEBUG 2022-01-18 12:44:20,466 - tld: com
+DEBUG 2022-01-18 12:44:20,466 - text: Ready for you sir
+DEBUG 2022-01-18 12:44:20,467 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:44:20,468 - pre-processing: <function tone_marks at 0x0000025AFC7E7BF8>
+DEBUG 2022-01-18 12:44:20,472 - pre-processing: <function end_of_line at 0x0000025AFC7E7C80>
+DEBUG 2022-01-18 12:44:20,473 - pre-processing: <function abbreviations at 0x0000025AFC7E7D08>
+DEBUG 2022-01-18 12:44:20,482 - pre-processing: <function word_sub at 0x0000025AFC7E7D90>
+DEBUG 2022-01-18 12:44:20,484 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:44:20,486 - text_parts: 1
+DEBUG 2022-01-18 12:44:20,494 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:44:20,506 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:44:22,406 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:44:22,530 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:44:22,531 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:44:22,531 - status-0: 200
+DEBUG 2022-01-18 12:44:22,533 - part-0 written to <_io.BufferedWriter name='temp4495537.mp3'>
+DEBUG 2022-01-18 12:44:22,533 - Saved to temp4495537.mp3
+DEBUG 2022-01-18 12:44:26,366 - pre_processor_funcs: [<function tone_marks at 0x0000028B5C94C268>, <function end_of_line at 0x0000028B5C94C9D8>, <function abbreviations at 0x0000028B5C94CA60>, <function word_sub at 0x0000028B5C94CAE8>]
+DEBUG 2022-01-18 12:44:26,367 - lang_check: True
+DEBUG 2022-01-18 12:44:26,367 - slow: False
+DEBUG 2022-01-18 12:44:26,367 - lang: en
+DEBUG 2022-01-18 12:44:26,367 - tld: com
+DEBUG 2022-01-18 12:44:26,367 - text: Not in the system
+DEBUG 2022-01-18 12:44:26,367 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:44:26,368 - pre-processing: <function tone_marks at 0x0000028B5C94C268>
+DEBUG 2022-01-18 12:44:26,368 - pre-processing: <function end_of_line at 0x0000028B5C94C9D8>
+DEBUG 2022-01-18 12:44:26,368 - pre-processing: <function abbreviations at 0x0000028B5C94CA60>
+DEBUG 2022-01-18 12:44:26,368 - pre-processing: <function word_sub at 0x0000028B5C94CAE8>
+DEBUG 2022-01-18 12:44:26,368 - text_parts: ['Not in the system']
+DEBUG 2022-01-18 12:44:26,369 - text_parts: 1
+DEBUG 2022-01-18 12:44:26,369 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Not%20in%20the%20system%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:44:26,370 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:44:26,912 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:44:27,031 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:44:27,031 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:44:27,031 - status-0: 200
+DEBUG 2022-01-18 12:44:27,033 - part-0 written to <_io.BufferedWriter name='temp15815685.mp3'>
+DEBUG 2022-01-18 12:44:27,034 - Saved to temp15815685.mp3
+DEBUG 2022-01-18 12:44:46,136 - pre_processor_funcs: [<function tone_marks at 0x000001826E61E268>, <function end_of_line at 0x000001826E61E9D8>, <function abbreviations at 0x000001826E61EA60>, <function word_sub at 0x000001826E61EAE8>]
+DEBUG 2022-01-18 12:44:46,136 - lang_check: True
+DEBUG 2022-01-18 12:44:46,136 - slow: False
+DEBUG 2022-01-18 12:44:46,136 - lang: en
+DEBUG 2022-01-18 12:44:46,136 - tld: com
+DEBUG 2022-01-18 12:44:46,136 - text: Ready for you sir
+DEBUG 2022-01-18 12:44:46,136 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:44:46,140 - pre-processing: <function tone_marks at 0x000001826E61E268>
+DEBUG 2022-01-18 12:44:46,142 - pre-processing: <function end_of_line at 0x000001826E61E9D8>
+DEBUG 2022-01-18 12:44:46,142 - pre-processing: <function abbreviations at 0x000001826E61EA60>
+DEBUG 2022-01-18 12:44:46,146 - pre-processing: <function word_sub at 0x000001826E61EAE8>
+DEBUG 2022-01-18 12:44:46,147 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:44:46,147 - text_parts: 1
+DEBUG 2022-01-18 12:44:46,147 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:44:46,151 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:44:47,663 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:44:47,766 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:44:47,766 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:44:47,766 - status-0: 200
+DEBUG 2022-01-18 12:44:47,767 - part-0 written to <_io.BufferedWriter name='temp10323613.mp3'>
+DEBUG 2022-01-18 12:44:47,767 - Saved to temp10323613.mp3
+DEBUG 2022-01-18 12:44:55,366 - Calling CoUnititialize()
+DEBUG 2022-01-18 12:44:55,367 - CoUnititialize() done.
+DEBUG 2022-01-18 12:45:51,208 - CoInitializeEx(None, 2)
+INFO 2022-01-18 12:45:51,254 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 12:45:51,255 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 12:45:51,437 - Calling CoUnititialize()
+DEBUG 2022-01-18 12:45:51,437 - CoUnititialize() done.
+DEBUG 2022-01-18 12:46:38,815 - pre_processor_funcs: [<function tone_marks at 0x000002823A49D268>, <function end_of_line at 0x000002823A49D9D8>, <function abbreviations at 0x000002823A49DA60>, <function word_sub at 0x000002823A49DAE8>]
+DEBUG 2022-01-18 12:46:38,816 - lang_check: True
+DEBUG 2022-01-18 12:46:38,816 - slow: False
+DEBUG 2022-01-18 12:46:38,816 - lang: en
+DEBUG 2022-01-18 12:46:38,816 - tld: com
+DEBUG 2022-01-18 12:46:38,816 - text: Ready for you sir
+DEBUG 2022-01-18 12:46:38,816 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:46:38,817 - pre-processing: <function tone_marks at 0x000002823A49D268>
+DEBUG 2022-01-18 12:46:38,818 - pre-processing: <function end_of_line at 0x000002823A49D9D8>
+DEBUG 2022-01-18 12:46:38,818 - pre-processing: <function abbreviations at 0x000002823A49DA60>
+DEBUG 2022-01-18 12:46:38,820 - pre-processing: <function word_sub at 0x000002823A49DAE8>
+DEBUG 2022-01-18 12:46:38,820 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:46:38,820 - text_parts: 1
+DEBUG 2022-01-18 12:46:38,821 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:46:38,835 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:46:40,016 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:46:40,130 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:46:40,131 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:46:40,131 - status-0: 200
+DEBUG 2022-01-18 12:46:40,131 - part-0 written to <_io.BufferedWriter name='temp18073416.mp3'>
+DEBUG 2022-01-18 12:46:40,131 - Saved to temp18073416.mp3
+DEBUG 2022-01-18 12:49:51,501 - pre_processor_funcs: [<function tone_marks at 0x000001AB1CB23BF8>, <function end_of_line at 0x000001AB1CB23C80>, <function abbreviations at 0x000001AB1CB23D08>, <function word_sub at 0x000001AB1CB23D90>]
+DEBUG 2022-01-18 12:49:51,502 - lang_check: True
+DEBUG 2022-01-18 12:49:51,502 - slow: False
+DEBUG 2022-01-18 12:49:51,502 - lang: en
+DEBUG 2022-01-18 12:49:51,503 - tld: com
+DEBUG 2022-01-18 12:49:51,503 - text: Ready for you sir
+DEBUG 2022-01-18 12:49:51,504 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:49:51,510 - pre-processing: <function tone_marks at 0x000001AB1CB23BF8>
+DEBUG 2022-01-18 12:49:51,516 - pre-processing: <function end_of_line at 0x000001AB1CB23C80>
+DEBUG 2022-01-18 12:49:51,517 - pre-processing: <function abbreviations at 0x000001AB1CB23D08>
+DEBUG 2022-01-18 12:49:51,524 - pre-processing: <function word_sub at 0x000001AB1CB23D90>
+DEBUG 2022-01-18 12:49:51,525 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:49:51,527 - text_parts: 1
+DEBUG 2022-01-18 12:49:51,534 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:49:51,548 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:49:53,198 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:49:53,283 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:49:53,283 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:49:53,284 - status-0: 200
+DEBUG 2022-01-18 12:49:53,286 - part-0 written to <_io.BufferedWriter name='temp7314212.mp3'>
+DEBUG 2022-01-18 12:49:53,287 - Saved to temp7314212.mp3
+DEBUG 2022-01-18 12:50:11,466 - pre_processor_funcs: [<function tone_marks at 0x000001B87C226BF8>, <function end_of_line at 0x000001B87C226C80>, <function abbreviations at 0x000001B87C226D08>, <function word_sub at 0x000001B87C226D90>]
+DEBUG 2022-01-18 12:50:11,467 - lang_check: True
+DEBUG 2022-01-18 12:50:11,467 - slow: False
+DEBUG 2022-01-18 12:50:11,467 - lang: en
+DEBUG 2022-01-18 12:50:11,468 - tld: com
+DEBUG 2022-01-18 12:50:11,468 - text: Ready for you sir
+DEBUG 2022-01-18 12:50:11,468 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 12:50:11,469 - pre-processing: <function tone_marks at 0x000001B87C226BF8>
+DEBUG 2022-01-18 12:50:11,473 - pre-processing: <function end_of_line at 0x000001B87C226C80>
+DEBUG 2022-01-18 12:50:11,474 - pre-processing: <function abbreviations at 0x000001B87C226D08>
+DEBUG 2022-01-18 12:50:11,487 - pre-processing: <function word_sub at 0x000001B87C226D90>
+DEBUG 2022-01-18 12:50:11,489 - text_parts: ['Ready for you sir']
+DEBUG 2022-01-18 12:50:11,490 - text_parts: 1
+DEBUG 2022-01-18 12:50:11,492 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 12:50:11,502 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 12:50:12,598 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-01-18 12:50:12,677 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-01-18 12:50:12,678 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-01-18 12:50:12,679 - status-0: 200
+DEBUG 2022-01-18 12:50:12,681 - part-0 written to <_io.BufferedWriter name='temp14243359.mp3'>
+DEBUG 2022-01-18 12:50:12,682 - Saved to temp14243359.mp3
+DEBUG 2022-01-18 13:01:09,499 - CoInitializeEx(None, 2)
+INFO 2022-01-18 13:01:09,559 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 13:01:09,559 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 13:01:09,701 - Calling CoUnititialize()
+DEBUG 2022-01-18 13:01:09,702 - CoUnititialize() done.
+DEBUG 2022-01-18 13:02:22,301 - CoInitializeEx(None, 2)
+INFO 2022-01-18 13:02:22,336 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 13:02:22,336 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 13:02:22,468 - Calling CoUnititialize()
+DEBUG 2022-01-18 13:02:22,469 - CoUnititialize() done.
+DEBUG 2022-01-18 13:02:44,340 - CoInitializeEx(None, 2)
+INFO 2022-01-18 13:02:44,380 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\astroxiii\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO 2022-01-18 13:02:44,380 - Using writeable comtypes cache directory: 'C:\Users\astroxiii\AppData\Local\Programs\Python\Python36\lib\site-packages\comtypes\gen'
+DEBUG 2022-01-18 13:02:44,538 - pre_processor_funcs: [<function tone_marks at 0x000002500965F1E0>, <function end_of_line at 0x000002500965F950>, <function abbreviations at 0x000002500965F9D8>, <function word_sub at 0x000002500965FA60>]
+DEBUG 2022-01-18 13:02:44,538 - lang_check: True
+DEBUG 2022-01-18 13:02:44,538 - slow: False
+DEBUG 2022-01-18 13:02:44,539 - lang: en
+DEBUG 2022-01-18 13:02:44,539 - tld: com
+DEBUG 2022-01-18 13:02:44,539 - text: it is 13:02 PM 
+DEBUG 2022-01-18 13:02:44,539 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 13:02:44,541 - pre-processing: <function tone_marks at 0x000002500965F1E0>
+DEBUG 2022-01-18 13:02:44,545 - pre-processing: <function end_of_line at 0x000002500965F950>
+DEBUG 2022-01-18 13:02:44,546 - pre-processing: <function abbreviations at 0x000002500965F9D8>
+DEBUG 2022-01-18 13:02:44,551 - pre-processing: <function word_sub at 0x000002500965FA60>
+DEBUG 2022-01-18 13:02:44,552 - text_parts: ['it is 13:02 PM']
+DEBUG 2022-01-18 13:02:44,553 - text_parts: 1
+DEBUG 2022-01-18 13:02:44,554 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22it%20is%2013%3A02%20PM%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 13:02:44,556 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 13:02:44,567 - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025009BC5C50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR 2022-01-18 13:02:44,568 - Failed to connect. Probable cause: Unknown
+DEBUG 2022-01-18 13:03:04,204 - pre_processor_funcs: [<function tone_marks at 0x000002500965F1E0>, <function end_of_line at 0x000002500965F950>, <function abbreviations at 0x000002500965F9D8>, <function word_sub at 0x000002500965FA60>]
+DEBUG 2022-01-18 13:03:04,204 - lang_check: True
+DEBUG 2022-01-18 13:03:04,204 - slow: False
+DEBUG 2022-01-18 13:03:04,204 - lang: en
+DEBUG 2022-01-18 13:03:04,204 - tld: com
+DEBUG 2022-01-18 13:03:04,204 - text: Here is what I found for x on google
+DEBUG 2022-01-18 13:03:04,204 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-01-18 13:03:04,212 - pre-processing: <function tone_marks at 0x000002500965F1E0>
+DEBUG 2022-01-18 13:03:04,212 - pre-processing: <function end_of_line at 0x000002500965F950>
+DEBUG 2022-01-18 13:03:04,213 - pre-processing: <function abbreviations at 0x000002500965F9D8>
+DEBUG 2022-01-18 13:03:04,213 - pre-processing: <function word_sub at 0x000002500965FA60>
+DEBUG 2022-01-18 13:03:04,213 - text_parts: ['Here is what I found for x on google']
+DEBUG 2022-01-18 13:03:04,213 - text_parts: 1
+DEBUG 2022-01-18 13:03:04,213 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Here%20is%20what%20I%20found%20for%20x%20on%20google%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-01-18 13:03:04,219 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-01-18 13:03:04,235 - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025009BC5B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+ERROR 2022-01-18 13:03:04,235 - Failed to connect. Probable cause: Unknown
