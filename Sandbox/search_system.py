@@ -1,16 +1,6 @@
 import webbrowser , re ,threading
 from utilities.memory import save_search_history 
 
-def discription():
-    discription_dict = {
-            "tag": "search",
-            "patterns": [ "search for" ,"google it",
-            "look for" , "find","search" ],
-            "exe-resp":True
-        }
-
-    return discription_dict
-
 services = [
     {"service":'youtube',
     'url' :"https://www.youtube.com/results?search_query="},
@@ -19,7 +9,7 @@ services = [
 ]
 
 def open_url(url):
-    trad=threading.Thread(target =webbrowser.get().open(url)).start()
+    trad=threading.Thread(target =webbrowser.open,args =[url]).start()
 
 
 def parse(sent):

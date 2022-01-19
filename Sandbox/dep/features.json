@@ -2,7 +2,7 @@
 
     "$schema": [
 {
-    "tag": "run_apps",
+    "feature": "run_apps",
     "patterns": [
         "open"
     ],
@@ -12,7 +12,7 @@
     ],"exe-resp":false
 },
 {
-    "tag": "search_system",
+    "feature": "search_system",
     "patterns": [
         "search for",
         "google it",
@@ -21,6 +21,14 @@
         "search"
     ],
     "exe-resp":true
+},{
+    "feature": "time_manager",
+    "patterns": [
+        "what time is it",
+        "time",
+        "what's the time"
+    ],
+    "exe-resp": true
 }
 
 
