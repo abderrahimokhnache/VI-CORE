@@ -127,7 +127,33 @@ def partofspeechtagging():
     for i in tokenized:
         words = word_tokenize(i)
         tagged = nltk.pos_tag(words)
+        namedEnt = nltk.ne_chunk(tagged,binary= 1)
+        namedEnt.draw()
 
 # partofspeechtagging()
 # sample="search for css animatation on youtube"
+def lemtze():
+    from nltk.stem import WordNetLemmatizer
+    lem = WordNetLemmatizer()
+    print(lem.lemmatize('better' , "a"))
+
+# from nltk.corpus import gutenberg
+
+# sample = gutenberg.raw('bible-kjv.txt')
+
+# tok = sent_tokenize(sample)
+
+# print(tok[5:15] )
+
+
+
+
+
+
+
+
+
+
+
+
 
