@@ -137,13 +137,13 @@ def lemtze():
     lem = WordNetLemmatizer()
     print(lem.lemmatize('better' , "a"))
 
-# from nltk.corpus import gutenberg
+from nltk.corpus import gutenberg
 
-# sample = gutenberg.raw('bible-kjv.txt')
+sample = gutenberg.raw('bible-kjv.txt')
 
-# tok = sent_tokenize(sample)
+tok = sent_tokenize(sample)
 
-# print(tok[5:15] )
+print(tok[5:15] )
 
 
 
