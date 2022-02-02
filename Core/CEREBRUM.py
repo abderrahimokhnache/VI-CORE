@@ -6,9 +6,9 @@ class Think():
 
     def __init__(self,master_input):
         tag , response = Think.features_json(master_input)
-        if tag == None :
+        if not tag :
             tag,response = Think.noaction(master_input)
-        if tag == None:
+        elif not tag :
             """add other db"""
             tag, response = ("not categorized" , ["Not in the system"])
         self.output = random.choice(response)
@@ -25,7 +25,7 @@ class Think():
                 if feature["exe-resp"]:
                     return teg_exe 
                 return (feature['feature'], feature['responses'])
-        return (None , ["Not in features"])
+        return (False , ["Not in features"])
 
     @staticmethod
     def noaction(master_input):

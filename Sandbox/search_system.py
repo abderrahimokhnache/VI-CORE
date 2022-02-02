@@ -1,5 +1,5 @@
 import webbrowser , re ,threading
-# from utilities.memory import save_search_history 
+from utilities.memory import save_search_history 
 
 services = [
     {"service":'youtube',
@@ -18,7 +18,7 @@ def parse(sent):
     term = result[1]
     return service , term
 
-def execute(search_term =''):
+def execute(search_term):
     try : 
         service , term  = parse(search_term)
         for tag in services :

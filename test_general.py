@@ -5,7 +5,7 @@ from Core import CEREBRUM
 
 class TestFeatures(unittest.TestCase):
     exe = lambda x : CEREBRUM.Think(x)
-
+    
     def test_searchsys(self):
         self.assertEqual(TestFeatures.exe('search').tag, "expact search")
         self.assertEqual(TestFeatures.exe('marvel 1999').tag , "google search")

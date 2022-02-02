@@ -449,6 +449,114 @@
          "input": "what time is it",
          "output": "the time is 15:52 PM",
          "@time": "Tuesday-January-18-2022,15:52:21"
+      },
+      {
+         "tag": "unkown service",
+         "input": "search for imagine dragons on you",
+         "output": "i can't access the service",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "issue",
+         "input": "search for imagine dragons",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "the time is 13:29 PM",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "run_apps",
+         "input": "open gender",
+         "output": "Done ",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "run_apps",
+         "input": "open blend",
+         "output": "Got it",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "run_apps",
+         "input": "open blender",
+         "output": "Got it",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "run_apps",
+         "input": "open brave",
+         "output": "Done ",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "run_apps",
+         "input": "open files",
+         "output": "Got it",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "time",
+         "input": "what time is it",
+         "output": "it is 13:29 PM ",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "not categorized",
+         "input": "imagine dragons",
+         "output": "Not in the system",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "issue",
+         "input": "search for gander on",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "issue",
+         "input": "search for blender on",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:28:32"
+      },
+      {
+         "tag": "issue",
+         "input": "search for something on",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:35:46"
+      },
+      {
+         "tag": "issue",
+         "input": "search for marble zone",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:52:19"
+      },
+      {
+         "tag": "google search",
+         "input": "search for marvel on google",
+         "output": "Here is what I found for marvel on google",
+         "@time": "Wednesday-January-26-2022,13:52:19"
+      },
+      {
+         "tag": "issue",
+         "input": "search for abdul rahman on",
+         "output": "sorry am having some issues with that try agein",
+         "@time": "Wednesday-January-26-2022,13:52:19"
+      },
+      {
+         "tag": "google search",
+         "input": "search for abdul rahman on google",
+         "output": "Here is what I found for abdul rahman on google",
+         "@time": "Wednesday-January-26-2022,13:52:19"
+      },
+      {
+         "tag": "google search",
+         "input": "search for abdul-rahman ajani on google",
+         "output": "Here is what I found for abdul-rahman ajani on google",
+         "@time": "Wednesday-January-26-2022,13:52:19"
       }
    ]
 }
