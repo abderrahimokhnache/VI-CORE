@@ -1,6 +1,6 @@
 import speech_recognition as sr , playsound ,random ,os
 from gtts import gTTS
-# from utilities.logger import log
+from utilities.logger import log
 from urllib import request
 
 def Listen():
@@ -11,8 +11,7 @@ def Listen():
             audio = r.listen(source)
             master_input = r.recognize_google(audio)
     except Exception as e:
-        # log(e)
-        pass
+        log(e)
     return master_input.lower()
 
 
@@ -27,5 +26,4 @@ def Talk(master_input):
         playsound.playsound(audio_file)
         os.remove(audio_file)
     except Exception as e:
-        # log(e)
-        pass
+        log(e)

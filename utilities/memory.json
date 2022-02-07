@@ -545,18 +545,6 @@
          "input": "search for abdul rahman on",
          "output": "sorry am having some issues with that try agein",
          "@time": "Wednesday-January-26-2022,13:52:19"
-      },
-      {
-         "tag": "google search",
-         "input": "search for abdul rahman on google",
-         "output": "Here is what I found for abdul rahman on google",
-         "@time": "Wednesday-January-26-2022,13:52:19"
-      },
-      {
-         "tag": "google search",
-         "input": "search for abdul-rahman ajani on google",
-         "output": "Here is what I found for abdul-rahman ajani on google",
-         "@time": "Wednesday-January-26-2022,13:52:19"
       }
    ]
 }
