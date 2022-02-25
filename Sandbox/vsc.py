@@ -6,14 +6,6 @@ import time
 kb = keyboard.Controller()
 mouse = mouse.Controller()
 
-def discription():
-    discription_dict = {
-            "tag": "system control",
-            "patterns": [ "system control" ,"system control over voice" , "voice command","scov"],
-            "responses": ["just opened" , 'starting ']
-            ,"exe-resp":False
-        }
-    return discription_dict  
 
 def execute(search_term =''):
     while True :

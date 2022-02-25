@@ -745,3 +745,41 @@ DEBUG 2022-01-18 13:03:04,213 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%
 DEBUG 2022-01-18 13:03:04,219 - Starting new HTTPS connection (1): translate.google.com:443
 DEBUG 2022-01-18 13:03:04,235 - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025009BC5B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
 ERROR 2022-01-18 13:03:04,235 - Failed to connect. Probable cause: Unknown
+DEBUG 2022-02-14 01:02:50,137 - pre_processor_funcs: [<function tone_marks at 0x00000268B68BC378>, <function end_of_line at 0x00000268B68BCAE8>, <function abbreviations at 0x00000268B68BCB70>, <function word_sub at 0x00000268B68BCBF8>]
+DEBUG 2022-02-14 01:02:50,138 - lang_check: True
+DEBUG 2022-02-14 01:02:50,138 - slow: False
+DEBUG 2022-02-14 01:02:50,138 - lang: en
+DEBUG 2022-02-14 01:02:50,138 - tld: com
+DEBUG 2022-02-14 01:02:50,138 - text: Ready for you sir
+DEBUG 2022-02-14 01:02:50,138 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-02-14 01:02:50,139 - pre-processing: <function tone_marks at 0x00000268B68BC378>
+DEBUG 2022-02-14 01:02:50,140 - pre-processing: <function end_of_line at 0x00000268B68BCAE8>
+DEBUG 2022-02-14 01:02:50,141 - pre-processing: <function abbreviations at 0x00000268B68BCB70>
+DEBUG 2022-02-14 01:02:50,143 - pre-processing: <function word_sub at 0x00000268B68BCBF8>
+DEBUG 2022-02-14 01:02:50,143 - text_parts: ['Ready for you sir']
+DEBUG 2022-02-14 01:02:50,144 - text_parts: 1
+DEBUG 2022-02-14 01:02:50,145 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-02-14 01:02:50,148 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-02-14 01:02:52,243 - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG 2022-02-14 01:02:52,343 - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG 2022-02-14 01:02:52,343 - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG 2022-02-14 01:02:52,343 - status-0: 200
+DEBUG 2022-02-14 01:02:52,343 - part-0 written to <_io.BufferedWriter name='temp3756768.mp3'>
+DEBUG 2022-02-14 01:02:52,343 - Saved to temp3756768.mp3
+DEBUG 2022-02-19 17:58:43,280 - pre_processor_funcs: [<function tone_marks at 0x00000261E915C378>, <function end_of_line at 0x00000261E915CAE8>, <function abbreviations at 0x00000261E915CB70>, <function word_sub at 0x00000261E915CBF8>]
+DEBUG 2022-02-19 17:58:43,280 - lang_check: True
+DEBUG 2022-02-19 17:58:43,281 - slow: False
+DEBUG 2022-02-19 17:58:43,281 - lang: en
+DEBUG 2022-02-19 17:58:43,281 - tld: com
+DEBUG 2022-02-19 17:58:43,281 - text: Ready for you sir
+DEBUG 2022-02-19 17:58:43,281 - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG 2022-02-19 17:58:43,282 - pre-processing: <function tone_marks at 0x00000261E915C378>
+DEBUG 2022-02-19 17:58:43,283 - pre-processing: <function end_of_line at 0x00000261E915CAE8>
+DEBUG 2022-02-19 17:58:43,284 - pre-processing: <function abbreviations at 0x00000261E915CB70>
+DEBUG 2022-02-19 17:58:43,287 - pre-processing: <function word_sub at 0x00000261E915CBF8>
+DEBUG 2022-02-19 17:58:43,287 - text_parts: ['Ready for you sir']
+DEBUG 2022-02-19 17:58:43,288 - text_parts: 1
+DEBUG 2022-02-19 17:58:43,289 - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ready%20for%20you%20sir%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG 2022-02-19 17:58:43,292 - Starting new HTTPS connection (1): translate.google.com:443
+DEBUG 2022-02-19 17:58:44,104 - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR 2022-02-19 17:58:44,104 - Failed to connect. Probable cause: Unknown

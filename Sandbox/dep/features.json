@@ -29,7 +29,62 @@
         "what's the time"
     ],
     "exe-resp": true
+}, {
+    "feature": "system control",
+    "patterns": [
+        "system control",
+        "system control over voice",
+        "voice command",
+        "scov"
+    ],
+    "responses": [
+        "just opened", "starting"
+    ],
+    "exe-resp":false
+},{
+    "feature": "location",
+    "patterns": [
+        "what is my exact location",
+        "exact location","what is my location"
+    ],
+    "responses": [
+        "You must be somewhere near here, as per Google maps", "You should be here"
+    ],
+    "exe-resp":false
+}, {
+    "feature": "third party apps",
+    "patterns": [
+        "open"
+    ],
+    "responses": [
+        "Done ",
+        "Got it"
+    ],
+    "exe-resp":false
+},{
+    "feature": "master",
+    "patterns": [
+        "what's my name",
+        "what is my name"
+    ],
+    "responses": [
+        "Done ",
+        "Got it"
+    ],
+    "exe-resp":True
+},{
+    "feature": "dummy",
+    "patterns": [
+        "dummy",
+        "hi dummy"
+    ],
+    "responses": [
+        "Done ",
+        "Got it"
+    ],
+    "exe-resp":True
 }
+	
 
 
     ]

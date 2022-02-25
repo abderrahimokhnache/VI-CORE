@@ -2,15 +2,6 @@ from utilities.text_op import clear
 import clipboard
 from PIL import ImageGrab
 
-def discription():
-	discription_dict = {
-            "tag": "dummy",
-            "patterns": ["dummy" , "hi dummy"],
-            "responses": ["Done " , "Got it"]
-            ,"exe-resp":True
-        }
-	return discription_dict 
-
 def execute(master_input=""):
     master_input=clear(master_input , ["hi" , "dummy"])
     if 'random png' in master_input :

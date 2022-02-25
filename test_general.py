@@ -25,9 +25,3 @@ class TestFeatures(unittest.TestCase):
 
     def test_txtop(self):
         self.assertEqual(TestFeatures.exe('search for css animation in youtube').tag ,"youtube search")
-
-    def test_nlp(self):
-        exe = lambda x : CEREBRUM.Think.NLP(x)
-        self.assertEqual(exe("what time is it") , "asking for time")
-        self.assertEqual(exe("search for x on x") , "asking to search")
-        self.assertEqual(exe("find x.x and open it") , "asking to find a file and open it ")

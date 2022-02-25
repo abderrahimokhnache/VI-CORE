@@ -3,7 +3,8 @@
 ## Personal assistant system
 
 ### utilities 
-> "for now" it has only the spark moudel which has the Listen(speech recognition) & Talk(gTTS) functions
+>spark moudel which has the Listen(speech recognition) & Talk(gTTS) functions
+
 
 ### CORE-CEREBRUM
 > The Think class is where the magic happens it loops through the intents.json(no exection) to see if the input
