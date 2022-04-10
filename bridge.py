@@ -40,4 +40,5 @@ if __name__ == "__main__":
         if sys.argv[1] == "cli":
             init.cli(talk =sys.argv[2])
     except :
-        init.onlyspeechrecog()
+        if sys.argv[1] != "cli":
+            init.onlyspeechrecog()
