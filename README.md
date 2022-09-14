@@ -13,8 +13,8 @@
 ### Sandbox
 > the sandbox is a module contain VI's features each feature has two functions :
 
-#### disciption 
-> contan a dict which has Pattrens and responses 
+#### description 
+> contant is a dict which has Pattrens and responses 
 
 #### execute 
 > is if the input matches one of the patterns the execute func will run
